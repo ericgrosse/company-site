@@ -1,4 +1,12 @@
 .Home {
-  color: #1e6fab;
-  //font-size: 100px;
+  .container {
+    display: grid;
+    grid-template-columns: 400px 500px auto 500px 400px;
+    grid-template-rows: 25% 100px auto;
+    border: 3px solid black;
+  }
+
+  .item {
+    border: 2px solid red;
+  }
 }
