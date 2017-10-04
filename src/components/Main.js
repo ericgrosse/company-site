@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { Switch, Route } from 'react-router-dom'
-import Home from './components/Home'
-import Roster from './components/Roster'
-import Schedule from './components/Schedule'
+import Home from './Home'
+import Roster from './Roster'
+import Schedule from './Schedule'
 
 const Main = () => (
   <main>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import Header from './Header'
-import Main from './Main'
+import Header from './components/Header'
+import Main from './components/Main'
 import './app.scss'
 
 export default class App extends Component {
