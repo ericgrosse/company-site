@@ -24,17 +24,7 @@ module.exports = {
         include: path.join(__dirname, 'src')
       },
       {test: /(\.css|\.scss)$/, loaders: ['style', 'css?sourceMap', 'sass?sourceMap']},
+      {test: /\.(jpe?g|png|gif|svg)$/i, loaders: ['file-loader']},
     ],
-
-    rules: [{
-        test: /\.scss$/,
-        use: [{
-            loader: "style-loader" // creates style nodes from JS strings
-        }, {
-            loader: "css-loader" // translates CSS into CommonJS
-        }, {
-            loader: "sass-loader" // compiles Sass to CSS
-        }]
-    }]
   }
 };

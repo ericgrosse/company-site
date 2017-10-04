@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import './Home.scss'
+import img from '../images/tattoo-1.jpg'
 
 const Home = () => (
   <div className="Home">
     <div className="container">
       <div className="item item-1">
-        <p>Item 1</p>
+        <img src={img}/>
       </div>
       <div className="item item-2">
         <p>Item 2</p>
@@ -27,27 +28,6 @@ const Home = () => (
       </div>
       <div className="item item-8">
         <p>Item 8</p>
-      </div>
-      <div className="item item-9">
-        <p>Item 9</p>
-      </div>
-      <div className="item item-10">
-        <p>Item 10</p>
-      </div>
-      <div className="item item-11">
-        <p>Item 11</p>
-      </div>
-      <div className="item item-12">
-        <p>Item 12</p>
-      </div>
-      <div className="item item-13">
-        <p>Item 13</p>
-      </div>
-      <div className="item item-14">
-        <p>Item 14</p>
-      </div>
-      <div className="item item-15">
-        <p>Item 15</p>
       </div>
     </div>
   </div>

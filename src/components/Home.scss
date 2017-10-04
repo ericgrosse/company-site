@@ -1,12 +1,20 @@
 .Home {
   .container {
-    display: grid;
-    grid-template-columns: 400px 500px auto 500px 400px;
-    grid-template-rows: 25% 100px auto;
+    display: inline-grid;
+    grid: repeat(2, 200px) / repeat(4, 200px);
     border: 3px solid black;
+    height: 30em;
+    align-content: center;
+    text-align: center;
+    padding: 32px;
   }
 
   .item {
-    border: 2px solid red;
+    border: 2px solid orange;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
   }
 }
