@@ -5,23 +5,23 @@ import './Header.scss'
 const Header = () => (
   <div className="Header">
     <div className="header about-button">
-      About
+      <div className="inner">About</div>
     </div>
 
     <div className="header services-button">
-      Services
+      <div className="inner">Services</div>
     </div>
 
     <div className="header portfolio-button">
-      Portfolio
+      <div className="inner">Portfolio</div>
     </div>
 
     <div className="header quote-request-button">
-      Quote Request
+      <div className="inner">Quote Request</div>
     </div>
 
     <div className="header contact-button">
-      Contact
+      <div className="inner">Contact</div>
     </div>
   </div>
 )
