@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Header from 'components/Header'
-import Main from 'components/Main'
+import Routes from 'components/Routes'
 import 'components/app.scss'
 
 export default class App extends Component {
@@ -8,7 +8,7 @@ export default class App extends Component {
     return (
       <div>
         <Header />
-        <Main />
+        <Routes />
       </div>
     )
   }
