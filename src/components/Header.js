@@ -6,31 +6,31 @@ const Header = () => (
   <div className="Header">
     <div className="header about-button">
       <Link to='/about'>
-        <div className="inner">About</div>
+        About
       </Link>
     </div>
 
     <div className="header services-button">
       <Link to='/services'>
-        <div className="inner">Services</div>
+        Services
       </Link>
     </div>
 
     <div className="header portfolio-button">
       <Link to='/portfolio'>
-        <div className="inner">Portfolio</div>
+        Portfolio
       </Link>
     </div>
 
     <div className="header quote-request-button">
       <Link to='/quote-request'>
-        <div className="inner">Quote Request</div>
+        Quote Request
       </Link>
     </div>
 
     <div className="header contact-button">
       <Link to='/contact'>
-        <div className="inner">Contact</div>
+        Contact
       </Link>
     </div>
   </div>

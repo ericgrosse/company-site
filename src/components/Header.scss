@@ -16,18 +16,13 @@
     a {
       text-decoration: none;
       color: inherit;
-    }
-  }
+      padding: 24px;
+      transition: background 200ms;
 
-  .inner {
-    width: 33%;
-    margin: 0 auto;
-    padding: 24px;
-    transition: background 200ms;
-
-    &:hover {
-      background: #E46350;
-      cursor: pointer;
+      &:hover {
+        background: #E46350;
+        cursor: pointer;
+      }
     }
   }
 }
