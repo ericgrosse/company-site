@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
-import './Home.scss'
-import img1 from '../images/tattoo-1.jpg'
-import img2 from '../images/tattoo-2.jpg'
-import img3 from '../images/tattoo-3.jpg'
-import img4 from '../images/tattoo-4.jpg'
-import img5 from '../images/tattoo-5.jpg'
-import img6 from '../images/tattoo-6.jpg'
-import img7 from '../images/tattoo-7.jpg'
-import img8 from '../images/tattoo-8.jpg'
+import 'components/Home.scss'
+
+import img1 from 'images/tattoo-1.jpg'
+import img2 from 'images/tattoo-2.jpg'
+import img3 from 'images/tattoo-3.jpg'
+import img4 from 'images/tattoo-4.jpg'
+import img5 from 'images/tattoo-5.jpg'
+import img6 from 'images/tattoo-6.jpg'
+import img7 from 'images/tattoo-7.jpg'
+import img8 from 'images/tattoo-8.jpg'
 
 const Home = () => (
   <div className="Home">

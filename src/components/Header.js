@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import './Header.scss'
+import 'components/Header.scss'
 
 const Header = () => (
   <div className="Header">

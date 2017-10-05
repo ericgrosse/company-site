@@ -26,5 +26,8 @@ module.exports = {
       {test: /(\.css|\.scss)$/, loaders: ['style', 'css?sourceMap', 'sass?sourceMap']},
       {test: /\.(jpe?g|png|gif|svg)$/i, loaders: ['file-loader']},
     ],
+  },
+  resolve: {
+    root: [path.resolve('./src')]
   }
 };
