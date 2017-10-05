@@ -7,7 +7,8 @@ var app = express();
 var compiler = webpack(config);
 
 app.use(require('webpack-dev-middleware')(compiler, {
-  publicPath: config.output.publicPath
+  publicPath: config.output.publicPath,
+  noInfo: true,
 }));
 
 app.use(require('webpack-hot-middleware')(compiler));
