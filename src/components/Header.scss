@@ -12,6 +12,11 @@
 
   .header {
     align-self: center;
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
   }
 
   .inner {
