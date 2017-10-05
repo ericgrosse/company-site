@@ -1,6 +1,6 @@
 .Header {
   display: grid;
-  grid: 1fr / repeat(5, 1fr);
+  grid: 1fr / 3fr repeat(5, 1fr) 3fr;
   text-align: center;
   background: #272727;
   color: white;
@@ -11,16 +11,18 @@
   align-items: center; // vertically centers the header text
 
   .header {
-    a {
-      text-decoration: none;
-      color: inherit;
-      padding: 24px;
-      transition: background 200ms;
 
-      &:hover {
-        background: #E46350;
-        cursor: pointer;
-      }
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    padding: 24px;
+    transition: background 200ms;
+
+    &:hover {
+      background: #E46350;
+      cursor: pointer;
     }
   }
 }

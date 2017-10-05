@@ -4,35 +4,15 @@ import 'components/Header.scss'
 
 const Header = () => (
   <div className="Header">
-    <div className="header about-button">
-      <Link to='/about'>
-        About
-      </Link>
-    </div>
+    <div className="gutter"/>
 
-    <div className="header services-button">
-      <Link to='/services'>
-        Services
-      </Link>
-    </div>
+    <Link className="header about-button" to='/about'>About</Link>
+    <Link className="header services-button" to='/services'>Services</Link>
+    <Link className="header portfolio-button" to='/portfolio'>Portfolio</Link>
+    <Link className="header quote-request-button" to='/quote-request'>Quote Request</Link>
+    <Link className="header quote-request-button" to='/contact'>Contact</Link>
 
-    <div className="header portfolio-button">
-      <Link to='/portfolio'>
-        Portfolio
-      </Link>
-    </div>
-
-    <div className="header quote-request-button">
-      <Link to='/quote-request'>
-        Quote Request
-      </Link>
-    </div>
-
-    <div className="header contact-button">
-      <Link to='/contact'>
-        Contact
-      </Link>
-    </div>
+    <div className="gutter"/>
   </div>
 )
 
