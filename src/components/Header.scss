@@ -8,11 +8,9 @@
   font-weight: bold;
   letter-spacing: 0.7px;
   height: 66px;
-  align-items: center;
+  align-items: center; // vertically centers the header text
 
   .header {
-    align-self: center;
-
     a {
       text-decoration: none;
       color: inherit;
