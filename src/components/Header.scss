@@ -1,0 +1,15 @@
+.Header {
+  display: grid;
+  grid: 1fr / repeat(5, 1fr);
+  text-align: center;
+  background: #272727;
+  padding: 24px 0;
+  color: white;
+  font-family: helvetica;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+
+  .header {
+
+  }
+}

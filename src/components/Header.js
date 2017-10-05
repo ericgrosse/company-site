@@ -1,16 +1,29 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import './Header.scss'
 
 const Header = () => (
-  <header>
-    <nav>
-      <ul>
-        <li><Link to='/'>Home</Link></li>
-        <li><Link to='/roster'>Roster</Link></li>
-        <li><Link to='/schedule'>Schedule</Link></li>
-      </ul>
-    </nav>
-  </header>
+  <div className="Header">
+    <div className="header about-button">
+      About
+    </div>
+
+    <div className="header services-button">
+      Services
+    </div>
+
+    <div className="header portfolio-button">
+      Portfolio
+    </div>
+
+    <div className="header quote-request-button">
+      Quote Request
+    </div>
+
+    <div className="header contact-button">
+      Contact
+    </div>
+  </div>
 )
 
 export default Header
