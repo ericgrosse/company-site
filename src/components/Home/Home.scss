@@ -2,4 +2,52 @@
   img {
     height: 500px;
   }
+
+  .grid-container {
+    display: grid;
+    grid: 1fr / repeat(5, 1fr);
+    text-align: center;
+  }
+
+  .item {
+    padding: 0 24px;
+
+    img {
+      //width: 100%;
+      height: 150px;
+    }
+
+    h3 {
+      font-size: 26px;
+      font-weight: 900;
+      font-family: Helvetica;
+      color: rgb(126, 126, 126);
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: bold;
+      font-family: Helvetica;
+      line-height: 24px;
+      color: rgb(158, 158, 158);
+    }
+
+    button {
+      background: none;
+      border: 2px solid #7E7C79;
+      color: #7E7C79;
+      border-radius: 3px;
+      padding: 10px 30px;
+      font-size: 14px;
+      font-weight: 900;
+      letter-spacing: 0.7px;
+      transition: all 200ms ease;
+
+      &:hover {
+        color: white;
+        border-color: #E46350;
+        background-color: #E46350;
+      }
+    }
+  }
 }
