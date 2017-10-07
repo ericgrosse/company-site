@@ -26,8 +26,6 @@ const Home = () => {
       </div>
 
       <div className="grid-container">
-        <div className="gutter"/>
-
         <div className="item item-1">
           <h3>Our Services</h3>
           <img src={require('images/tattoo-1.jpg')}/>
@@ -48,8 +46,6 @@ const Home = () => {
           <p>We are a small team of dedicated web developers and concept artists</p>
           <button>What we're about</button>
         </div>
-
-        <div className="gutter"/>
       </div>
     </div>
   )
