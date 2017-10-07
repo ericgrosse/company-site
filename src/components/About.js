@@ -4,7 +4,18 @@ import 'components/About.scss'
 
 const About = () => (
   <div className="About">
-    <h1>About</h1>
+    <div className="wrapper">
+      <div className="one">One</div>
+      <div className="two">Two</div>
+      <div className="three">Three</div>
+      <div className="four">Four</div>
+      <div className="five">Five</div>
+      <div className="six">Six</div>
+      <div className="seven">Seven</div>
+      <div className="eight">Eight</div>
+      <div className="nine">Nine</div>
+      <div className="ten">Ten</div>
+    </div>
   </div>
 )
 
