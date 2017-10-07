@@ -12,6 +12,10 @@
     background-color: rgba(233,171,88,.5);
     padding: 1em;
     color: #d9480f;
+
+    &.eight {
+      padding: 0;
+    }
   }
 
   .wrapper {
@@ -19,6 +23,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px 15px;
     grid-auto-rows: minmax(100px, auto);
+    text-align: center;
   }
   
   .one {
@@ -57,17 +62,37 @@
   }
 
   .eight {
+    display: grid;
     grid-row: 5;
     grid-column: 1 / 4;
+    grid-template-columns: repeat(2, 1fr);
+
+    .sub-1, .sub-2 {
+      border: 2px solid rgb(233,171,88);
+      border-radius: 5px;
+      background-color: rgba(233,171,88,.5);
+      padding: 1em;
+      color: #d9480f;
+    }
   }
 
   .nine {
     grid-row: 6;
-    grid-column: 1;
+    grid-column: 1 / 4;
   }
 
   .ten {
-    grid-row: 6;
-    grid-column: 2 / 4;
+    grid-row: 7;
+    grid-column: 1;
+  }
+
+  .eleven {
+    grid-row: 7;
+    grid-column: 2;
+  }
+
+  .twelve {
+    grid-row: 7;
+    grid-column: 3;
   }
 }
