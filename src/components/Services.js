@@ -7,10 +7,10 @@ const Services = () => (
     <div className="wrapper">
       <div className="one">
         <div className="sub-1">
-          Sub 1
+          TODO
         </div>
         <div className="sub-2">
-          Sub 2
+          TODO
         </div>
       </div>
       
@@ -84,7 +84,7 @@ const Services = () => (
       </div>
 
       <div className="six">
-        <h1>"Inspirational quote about the singularity"</h1>
+        <h3>"Inspirational quote about the singularity"</h3>
         <p>Copyright stuff</p>
         <p>TODO: Social media icons</p>
       </div>
