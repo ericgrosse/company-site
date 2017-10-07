@@ -7,6 +7,11 @@ html {
   display: grid;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* react-slick specific styling */
 
 .slick-prev:before, .slick-next:before {

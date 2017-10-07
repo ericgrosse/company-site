@@ -16,56 +16,78 @@ const Services = () => (
       
       <div className="two">
         <div className="sub-1">
-          Sub 1
+          <h3>Our Services</h3>
+          <img src={require('images/tattoo-1.jpg')}/>
+          <p>We offer web development services for projects of any scale</p>
+          <button>What we offer</button>
         </div>
 
         <div className="sub-2">
-          Sub 2
+          <h3>Our Portfolio</h3>
+          <img src={require('images/tattoo-2.jpg')}/>
+          <p>We build responsive websites with fluid layouts and elegant animations</p>
+          <button>What we've done</button>
         </div>
 
         <div className="sub-3">
-          Sub 3
+          <h3>About Us</h3>
+          <img src={require('images/tattoo-3.jpg')}/>
+          <p>We are a small team of dedicated web developers and concept artists</p>
+          <button>What we're about</button>
         </div>
       </div>
       
       <div className="three">
         <div className="sub-1">
-          Sub 1
+          <h3>Our Expertise</h3>
         </div>
 
         <div className="sub-2">
-          Sub 2
+          <img src={require('images/react-js-logo.png')}/>
         </div>
         
         <div className="sub-3">
-          Sub 3
+          <img src={require('images/node-js-logo.png')}/>
         </div>
         
         <div className="sub-4">
-          Sub 4
+          <img src={require('images/webpack-logo.svg')}/>
         </div>
         
         <div className="sub-5">
-          Sub 5
+          <img src={require('images/html5-logo.png')}/>
         </div>
         
         <div className="sub-6">
-          Sub 6
+          <img src={require('images/css3-logo.png')}/>
         </div>
       </div>
       
-      <div className="four">Four</div>
+      <div className="four">
+        <h3>Our Office</h3>
+        <h4>Montreal</h4>
+        <p>153 ave de la Pointe-Claire</p>
+        <p>Pointe-Claire, Quebec</p>
+        <p>Canada H9S 4M7</p>
+        <p>Tel: 514-951-5198</p>
+      </div>
+
       <div className="five">
         <div className="sub-1">
-          Sub 1
+          <h3>Request A Quote</h3>
+          <p>Request a quote and we will respond as soon as possible with a customized quote tailored to your specific project needs.</p>
         </div>
 
         <div className="sub-2">
-          Sub 2
+          TODO
         </div>
       </div>
-      
-      <div className="six">Six</div>
+
+      <div className="six">
+        <h1>"Inspirational quote about the singularity"</h1>
+        <p>Copyright stuff</p>
+        <p>TODO: Social media icons</p>
+      </div>
     </div>
   </div>
 )
