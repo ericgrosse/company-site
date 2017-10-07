@@ -7,10 +7,7 @@ const Services = () => (
     <div className="wrapper">
       <div className="one">
         <div className="sub-1">
-          TODO
-        </div>
-        <div className="sub-2">
-          TODO
+          <img src={require('images/software-singularity-logo-1.png')}/>
         </div>
       </div>
       
