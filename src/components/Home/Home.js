@@ -46,6 +46,32 @@ const Home = () => {
           <p>We are a small team of dedicated web developers and concept artists</p>
           <button>What we're about</button>
         </div>
+
+        <div className="item item-4">
+          <h3>Our Expertise</h3>
+
+          <div className="subgrid">
+            <div className="sub-1">
+              <img src={require('images/react-js-logo.png')}/>
+            </div>
+
+            <div className="sub-2">
+              <img src={require('images/node-js-logo.png')}/>
+            </div>
+
+            <div className="sub-3">
+              <img src={require('images/webpack-logo.svg')}/>
+            </div>
+
+            <div className="sub-4">
+              <img src={require('images/html5-logo.png')}/>
+            </div>
+
+            <div className="sub-5">
+              <img src={require('images/css3-logo.png')}/>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
