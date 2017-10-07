@@ -72,6 +72,24 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+        <div className="item item-5">
+          <h3>Our Office</h3>
+          <h4>Montreal</h4>
+          <p>153 ave de la Pointe-Claire</p>
+          <p>Pointe-Claire, Quebec</p>
+          <p>Canada H9S 4M7</p>
+          <p>Tel: 514-951-5198</p>
+        </div>
+
+        <div className="item item-6">
+          <h3>Request A Quote</h3>
+          <p>Request a quote and we will respond as soon as possible with a customized quote tailored to your specific project needs.</p>
+        </div>
+
+        <div className="item item-7">
+          <h3>TODO</h3>
+        </div>
       </div>
     </div>
   )
