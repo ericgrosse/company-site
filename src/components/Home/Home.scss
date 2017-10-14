@@ -2,10 +2,15 @@
   $green: #3F9E94;
   $dark-gray: rgb(126, 126, 126);
   $light-gray: rgb(158, 158, 158);
+  $orange: #E46350;
 
-  button:hover {
-    border-color: $green;
-    background-color: $green;
+  button {
+    margin-top: 10px;
+
+    &:hover {
+      border-color: $orange;
+      background-color: $orange;
+    }
   }
 
   .wrapper {
@@ -40,6 +45,7 @@
   .fa {
     color: $light-gray;
     font-size: 80px;
+    margin: 20px 0;
   }
 
   /* Specific grid items */

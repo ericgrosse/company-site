@@ -17,6 +17,7 @@ h3 {
   font-weight: 900;
   font-family: Helvetica;
   //color: rgb(126, 126, 126);
+  margin-top: 0;
 }
 
 p {
@@ -29,8 +30,8 @@ p {
 
 button {
   background: none;
-  border: 2px solid white; //#7E7C79;
-  color: white; //#7E7C79;
+  border: 2px solid #7E7C79;
+  color: #7E7C79;
   border-radius: 3px;
   padding: 10px 30px;
   font-size: 14px;
@@ -43,6 +44,10 @@ button {
     border-color: #E46350;
     background-color: #E46350;
     cursor: pointer;
+  }
+
+  &:focus {
+    outline: none;
   }
 }
 
