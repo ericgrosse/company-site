@@ -61,12 +61,14 @@ const Home = () => (
       </div>
       
       <div className="four">
-        <h3>Our Office</h3>
-        <h4>Montreal</h4>
-        <p>153 ave de la Pointe-Claire</p>
-        <p>Pointe-Claire, Quebec</p>
-        <p>Canada H9S 4M7</p>
-        <p>Tel: 514-951-5198</p>
+        <div className="sub-1">
+          <h3>Our Office</h3>
+          <h4>Montreal</h4>
+          <p>153 ave de la Pointe-Claire</p>
+          <p>Pointe-Claire, Quebec</p>
+          <p>Canada H9S 4M7</p>
+          <p>Tel: 514-951-5198</p>
+        </div>
       </div>
 
       <div className="five">
