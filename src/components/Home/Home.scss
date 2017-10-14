@@ -44,7 +44,7 @@
 
   /* Specific grid items */
 
-  .one {
+  .banner {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column: 1 / span 3;
@@ -56,7 +56,7 @@
     }
   }
   
-  .two {
+  .our-services {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-row: 2;
@@ -84,7 +84,7 @@
     }
   }
   
-  .three {
+  .our-expertise {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-row: 3;
@@ -106,7 +106,7 @@
     }
   }
   
-  .four {
+  .our-office {
     display: grid;
     grid-row: 4;
     grid-column: 1 / 4;
@@ -119,7 +119,7 @@
     }
   }
   
-  .five {
+  .request-quote {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-row: 5;
@@ -133,7 +133,7 @@
     }
   }
   
-  .six {
+  .footer {
     grid-row: 6;
     grid-column: 1 / 4;
 

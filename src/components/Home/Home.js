@@ -5,13 +5,13 @@ import 'components/Home/Home.scss'
 const Home = () => (
   <div className="Home">
     <div className="wrapper">
-      <div className="one">
+      <div className="banner">
         <div className="sub-1">
           <img src={require('images/software-singularity-logo-1.png')}/>
         </div>
       </div>
       
-      <div className="two">
+      <div className="our-services">
         <div className="sub-1">
           <h3>Our Services</h3>
           <i className="fa fa-server" aria-hidden="true"/>
@@ -34,7 +34,7 @@ const Home = () => (
         </div>
       </div>
       
-      <div className="three">
+      <div className="our-expertise">
         <div className="sub-1">
           <h3>Our Expertise</h3>
         </div>
@@ -56,7 +56,7 @@ const Home = () => (
         </div>
       </div>
       
-      <div className="four">
+      <div className="our-office">
         <div className="sub-1">
           <h3>Our Office</h3>
           <h4>Montreal</h4>
@@ -67,7 +67,7 @@ const Home = () => (
         </div>
       </div>
 
-      <div className="five">
+      <div className="request-quote">
         <div className="sub-1">
           <h3>Request A Quote</h3>
           <p>Request a quote and we will respond as soon as possible with a customized quote tailored to your specific project needs.</p>
@@ -78,7 +78,7 @@ const Home = () => (
         </div>
       </div>
 
-      <div className="six">
+      <div className="footer">
         <h3>"Inspirational quote about the singularity"</h3>
         <p>Copyright stuff</p>
         <p>TODO: Social media icons</p>
