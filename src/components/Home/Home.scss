@@ -93,6 +93,10 @@
     background: #E46350; //#F0B27E; //#3f9e94;
     color: white;
 
+    .sub-2, .sub-3, .sub-4 {
+      margin-bottom: 2em;
+    }
+
     .sub-1 {
       grid-column: 1 / span 7;
     }

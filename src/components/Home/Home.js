@@ -40,23 +40,23 @@ const Home = () => (
         </div>
 
         <div className="sub-2">
-          <img src={require('images/react-js-logo.png')}/>
+          <img src={require('images/html5-logo-512x512.png')}/>
         </div>
         
         <div className="sub-3">
-          <img src={require('images/node-js-logo.png')}/>
+          <img src={require('images/html5-logo-512x512.png')}/>
         </div>
         
         <div className="sub-4">
-          <img src={require('images/webpack-logo.svg')}/>
+          <img src={require('images/html5-logo-512x512.png')}/>
         </div>
         
         <div className="sub-5">
-          <img src={require('images/html5-logo.png')}/>
+          <img src={require('images/html5-logo-512x512.png')}/>
         </div>
         
         <div className="sub-6">
-          <img src={require('images/css3-logo.png')}/>
+          <img src={require('images/html5-logo-512x512.png')}/>
         </div>
       </div>
       
