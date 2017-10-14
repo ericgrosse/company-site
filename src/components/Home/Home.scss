@@ -27,6 +27,13 @@
     text-align: center;
   }
   
+  .fa {
+    color: white;
+    font-size: 80px;
+  }
+
+  /* Specific grid items */
+
   .one {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -45,7 +52,7 @@
     grid-row: 2;
     grid-column: 1 / 4;
 
-    background: #F0B27E;
+    background: #3f9e94; //#F0B27E;
 
     h3 {
       font-size: 26px;
@@ -74,7 +81,7 @@
     grid-row: 3;
     grid-column: 1 / 4;
 
-    background: #3f9e94;
+    background: #E46350; //#F0B27E; //#3f9e94;
     color: white;
 
     .sub-1 {

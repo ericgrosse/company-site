@@ -14,21 +14,21 @@ const Home = () => (
       <div className="two">
         <div className="sub-1">
           <h3>Our Services</h3>
-          <img src={require('images/tattoo-1.jpg')}/>
+          <i className="fa fa-server" aria-hidden="true"/>
           <p>We offer web development services for projects of any scale</p>
           <button>What we offer</button>
         </div>
 
         <div className="sub-2">
           <h3>Our Portfolio</h3>
-          <img src={require('images/tattoo-2.jpg')}/>
+          <i className="fa fa-folder-open" aria-hidden="true"/>
           <p>We build responsive websites with fluid layouts and elegant animations</p>
           <button>What we've done</button>
         </div>
 
         <div className="sub-3">
           <h3>About Us</h3>
-          <img src={require('images/tattoo-3.jpg')}/>
+          <i className="fa fa-user-circle" aria-hidden="true"/>
           <p>We are a small team of dedicated web developers and concept artists</p>
           <button>What we're about</button>
         </div>
