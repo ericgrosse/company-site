@@ -110,22 +110,24 @@ const Home = () => (
         </div>
 
         <div className="sub sub-6">
-          <input type="text" value="Telephone"/>
+          <div className="sub-sub sub-sub-1">
+            <input type="text" value="Telephone"/>
+          </div>
+          
+          <div className="sub-sub sub-sub-2">
+            <input type="text" value="Ext."/>
+          </div>
         </div>
 
         <div className="sub sub-7">
-          <input type="text" value="Ext."/>
-        </div>
-
-        <div className="sub sub-8">
           <input type="text" value="Email address"/>
         </div>
 
-        <div className="sub sub-9">
+        <div className="sub sub-8">
           <input type="text" value="Project Details"/>
         </div>
 
-        <div className="sub-10">
+        <div className="sub-9">
           <button>Submit Request</button>
         </div>
       </div>
