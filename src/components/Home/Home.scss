@@ -179,6 +179,8 @@
 
     .sub-6 {
       grid-column: 3;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
     }
 
     .sub-7 {
