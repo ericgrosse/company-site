@@ -51,6 +51,18 @@ button {
   }
 }
 
+input {
+  width: 100%;
+  border: 2px solid white;
+  padding: 10px 15px;
+  color: white;
+  background: transparent;
+
+  &:focus {
+    outline: none;
+  }
+}
+
 /* react-slick specific styling */
 
 .slick-prev:before, .slick-next:before {

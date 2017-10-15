@@ -153,7 +153,17 @@
     color: white;
 
     .sub {
-      border: 1px solid white;
+      //border: 1px solid white;
+      
+      input {
+        width: 92%;
+      }
+    }
+
+    .sub-sub {
+      input {
+        width: 85%;
+      }
     }
 
     .sub-1 {
