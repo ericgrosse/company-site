@@ -19,19 +19,11 @@
   }
 
   .wrapper > div {
-    /*border: 2px solid rgb(233,171,88);
-    border-radius: 5px;
-    background-color: rgba(233,171,88,.5);
-    color: #d9480f;*/
     padding: 8px;
     align-items: center;
   }
 
-  .wrapper > div > div {
-    /*border: 2px solid rgb(233,171,88);
-    border-radius: 5px;
-    background-color: rgba(233,171,88,.5);
-    color: #d9480f;*/
+  .sub {
     padding: 1em;
   }
 
@@ -146,6 +138,7 @@
   .request-quote {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 50px);
     grid-row: 5;
     grid-column: 1 / 4;
 
@@ -154,6 +147,7 @@
 
     .sub {
       //border: 1px solid white;
+      padding: 0;
       
       input {
         width: 92%;
@@ -168,7 +162,7 @@
 
     .sub-1 {
       grid-column: 2;
-      grid-row: 1 / span 2;
+      grid-row: 1 / span 4;
     }
 
     .sub-2 {
@@ -204,6 +198,7 @@
     .sub-9 {
       grid-row: 5;
       grid-column: 3;
+      text-align: left;
     }
   }
   
