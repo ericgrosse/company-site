@@ -88,13 +88,45 @@ const Home = () => (
       </div>
 
       <div className="request-quote">
-        <div className="sub-1">
+        <div className="sub sub-1">
           <h3>Request A Quote</h3>
           <p>Request a quote and we will respond as soon as possible with a customized quote tailored to your specific project needs.</p>
         </div>
 
-        <div className="sub-2">
-          TODO1
+        <div className="sub sub-2">
+          <input type="text" value="First Name"/>
+        </div>
+
+        <div className="sub sub-3">
+          <input type="text" value="Last Name"/>
+        </div>
+
+        <div className="sub sub-4">
+          <input type="text" value="Organization"/>
+        </div>
+
+        <div className="sub sub-5">
+          <input type="text" value="City"/>
+        </div>
+
+        <div className="sub sub-6">
+          <input type="text" value="Telephone"/>
+        </div>
+
+        <div className="sub sub-7">
+          <input type="text" value="Ext."/>
+        </div>
+
+        <div className="sub sub-8">
+          <input type="text" value="Email address"/>
+        </div>
+
+        <div className="sub sub-9">
+          <input type="text" value="Project Details"/>
+        </div>
+
+        <div className="sub-10">
+          <button>Submit Request</button>
         </div>
       </div>
 
