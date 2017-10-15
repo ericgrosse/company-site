@@ -35,43 +35,43 @@ const Home = () => (
       </div>
       
       <div className="our-expertise">
-        <div className="sub-1">
+        <div className="sub sub-1">
           <h3>Our Expertise</h3>
         </div>
         
-        <div className="sub-2">
+        <div className="sub sub-2">
           <img src={require('images/react-logo-1000x1000.png')}/>
         </div>
         
-        <div className="sub-3">
+        <div className="sub sub-3">
           <img src={require('images/webpack-logo-800x925.png')}/>
         </div>
         
-        <div className="sub-4">
+        <div className="sub sub-4">
           <img src={require('images/node-js-logo-1000x612.png')}/>
         </div>
 
-        <div className="sub-5">
+        <div className="sub sub-5">
           <img src={require('images/html5+css3.png')}/>
         </div>
 
-        <div className="sub-6">
+        <div className="sub sub-6">
           <img src={require('images/mysql-logo-1024x530.png')}/>
         </div>
 
-        <div className="sub-7">
+        <div className="sub sub-7">
           <img src={require('images/mongodb-logo-375x375.png')}/>
         </div>
 
-        <div className="sub-8">
+        <div className="sub sub-8">
           <img src={require('images/github-icon-512x512-2.png')}/>
         </div>
 
-        <div className="sub-9">
+        <div className="sub sub-9">
           <img src={require('images/circle-ci-logo-400x400.png')}/>
         </div>
 
-        <div className="sub-10">
+        <div className="sub sub-10">
           <img src={require('images/photoshop-logo-512x512.png')}/>
         </div>
       </div>

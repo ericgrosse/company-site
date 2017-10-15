@@ -99,12 +99,13 @@
     background: rgba(0, 112, 255, 0.66);
     color: white;
 
-    .sub-2, .sub-3, .sub-4 {
+    .sub {
       margin-bottom: 2em;
     }
 
     .sub-1 {
       grid-column: 1 / span 7;
+      margin-bottom: 0;
     }
 
     .sub-2 {
