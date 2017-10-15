@@ -74,7 +74,7 @@ const Home = () => (
         </div>
 
         <div className="sub-2">
-          TODO
+          TODO1
         </div>
       </div>
 
