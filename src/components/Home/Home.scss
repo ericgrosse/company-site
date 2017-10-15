@@ -174,9 +174,12 @@
 
     .sub-1 {
       grid-column: 2;
-      grid-row: 2 / span 4;
+      grid-row: 1 / span 4;
       text-align: left;
       padding-right: 24px;
+
+      position: relative;
+      top: 22px;
     }
 
     .sub-2 {
