@@ -5,7 +5,7 @@ import 'components/About.scss'
 const About = () => (
   <div className="About">
     <div className="wrapper">
-      <div className="one">TEST</div>
+      <div className="one">One</div>
       <div className="two">Two</div>
       <div className="three">Three</div>
       <div className="four">Four</div>
