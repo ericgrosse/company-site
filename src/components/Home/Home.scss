@@ -23,14 +23,8 @@
   .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 700px) 470px;
+    grid-template-rows: repeat(4, 700px) 510px;
     text-align: center;
-  }
-  
-  .fa {
-    color: $black;
-    font-size: 80px;
-    margin: 20px 0;
   }
 
   /* Specific grid items */
@@ -58,6 +52,12 @@
         //border-color: $green-alt;
         //background-color: $green-alt;
       }
+    }
+
+    .fa {
+      color: $black;
+      font-size: 80px;
+      margin: 20px 0;
     }
 
     .sub {
@@ -242,11 +242,32 @@
     h3 {
       width: 25%;
       margin: 0 auto;
+      margin-top: 50px;
       font-size: 30px;
     }
 
     .copyright {
       margin-top: 100px;
+      margin-bottom: 0;
+    }
+
+    .social-media-icons {
+      padding-bottom: 12px;
+    }
+
+    .fa {
+      color: white;
+      font-size: 60px;
+      padding: 0 6px;
+      padding-top: 16px;
+    }
+
+    .sub {
+      padding: 0;
+    }
+
+    .sub-1 {
+      margin-top: 60px;
     }
   }
 }
