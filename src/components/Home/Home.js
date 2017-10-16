@@ -7,7 +7,7 @@ const Home = () => (
     <div className="wrapper">
       <div className="banner">
         <div className="sub sub-1">
-          <img src={require('images/software-singularity-logo-1.png')}/>
+          <img src={require('images/logo.png')}/>
         </div>
       </div>
       

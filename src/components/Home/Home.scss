@@ -46,8 +46,16 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column: 1 / span 3;
+    
+    background-image: url('~images/background-2.png');
+    background-size: cover;
+    //background: $green;
 
-    background: $green;
+    img {
+      position: relative;
+      top: -282px;
+      left: -664px;
+    }
 
     .sub-1 {
       grid-column: 2;
