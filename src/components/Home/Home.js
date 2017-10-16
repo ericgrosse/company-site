@@ -136,7 +136,7 @@ const Home = () => (
         <div className="sub sub-1">
           <h3>“ Everyone takes the limits of his own vision for the limits of the world. ”</h3>
           <p>— Arthur Schopenhauer</p>
-          <p>Copyright stuff</p>
+          <p className="copyright">© 2017 Singularity Software. All rights reserved.</p>
           <p>TODO: Social media icons</p>
         </div>
       </div>
