@@ -270,4 +270,30 @@
       margin-top: 60px;
     }
   }
+
+  @media (max-width: 1000px) {
+    .wrapper {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(5, auto);
+      text-align: center;
+    }
+
+    .sub {
+      padding: 24px;
+    }
+
+    .our-expertise {
+      grid-template-columns: 1fr;
+      grid-auto-rows: 210px;
+
+      .sub-2, .sub-3, .sub-4, .sub-5, .sub-6, .sub-7, .sub-8, .sub-9, .sub-10 {
+        grid-column: 1;
+      }
+
+      img {
+        height: 150px;
+      }
+    }
+  }
 }
