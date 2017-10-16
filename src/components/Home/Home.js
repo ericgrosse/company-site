@@ -135,7 +135,7 @@ const Home = () => (
       <div className="footer">
         <div className="sub sub-1">
           <h3>“ Everyone takes the limits of his own vision for the limits of the world. ”</h3>
-          <p>Arthur Schopenhauer</p>
+          <p>— Arthur Schopenhauer</p>
           <p>Copyright stuff</p>
           <p>TODO: Social media icons</p>
         </div>
