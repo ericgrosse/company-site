@@ -30,7 +30,7 @@
   .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(700px, auto);
+    grid-template-rows: repeat(5, 700px) 470px;
     text-align: center;
   }
   
@@ -179,7 +179,7 @@
       padding-right: 24px;
 
       position: relative;
-      top: 22px;
+      top: 93px;
     }
 
     .sub-2 {
@@ -233,5 +233,11 @@
 
     background: #489C93;
     color: white;
+
+    h3 {
+      width: 25%;
+      margin: 0 auto;
+      font-size: 30px;
+    }
   }
 }

@@ -133,9 +133,12 @@ const Home = () => (
       </div>
 
       <div className="footer">
-        <h3>"Inspirational quote about the singularity"</h3>
-        <p>Copyright stuff</p>
-        <p>TODO: Social media icons</p>
+        <div className="sub sub-1">
+          <h3>“ Everyone takes the limits of his own vision for the limits of the world. ”</h3>
+          <p>Arthur Schopenhauer</p>
+          <p>Copyright stuff</p>
+          <p>TODO: Social media icons</p>
+        </div>
       </div>
     </div>
   </div>
