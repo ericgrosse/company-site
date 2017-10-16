@@ -1,17 +1,10 @@
 .Home {
   $green: #3F9E94;
+  $green-alt: rgba(136, 189, 107, 0.53);
   $dark-gray: rgb(126, 126, 126);
   $light-gray: rgb(158, 158, 158);
   $orange: #E46350;
-
-  button {
-    margin-top: 10px;
-
-    &:hover {
-      border-color: $orange;
-      background-color: $orange;
-    }
-  }
+  $black: #333;
 
   .wrapper {
     //max-width: 940px;
@@ -35,7 +28,7 @@
   }
   
   .fa {
-    color: $light-gray;
+    color: $black;
     font-size: 80px;
     margin: 20px 0;
   }
@@ -44,7 +37,7 @@
 
   .banner {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-column: 1 / span 3;
     
     background-image: url('~images/background-2.png');
@@ -52,51 +45,54 @@
     //background: $green;
 
     img {
-      position: relative;
-      top: -282px;
-      left: -664px;
+      width: 47%;
+    }
+
+    button {
+      margin-top: 10px;
+      border-color: $green-alt;
+      background-color: $green-alt;
+      color: white;
+
+      &:hover {
+        //border-color: $green-alt;
+        //background-color: $green-alt;
+      }
+    }
+
+    .sub {
+      h3, p {
+        color: $black;
+      }
     }
 
     .sub-1 {
+      grid-column: 2 / span 3;
+    }
+
+    .sub-2 {
+      grid-row: 2;
       grid-column: 2;
     }
-  }
-  
-  .our-services {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-row: 2;
-    grid-column: 1 / 4;
 
-    background: white;
-
-    h3 {
-      font-size: 26px;
-      font-weight: 900;
-      font-family: Helvetica;
-      color: $dark-gray;
+    .sub-3 {
+      grid-row: 2;
+      grid-column: 3;
     }
 
-    p {
-      font-size: 16px;
-      font-weight: bold;
-      font-family: Helvetica;
-      line-height: 24px;
-      color: $light-gray;
-    }
-
-    .sub-1 {
-      grid-column: 2;
+    .sub-4 {
+      grid-row: 2;
+      grid-column: 4;
     }
   }
   
   .our-expertise {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-row: 3;
+    grid-row: 2;
     grid-column: 1 / 4;
 
-    background: rgba(0, 112, 255, 0.66);
+    background: #617C8E; //rgba(0, 112, 255, 0.66);
     color: white;
 
     .sub {
