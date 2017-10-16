@@ -1,4 +1,7 @@
 .Header {
+  $green: #3F9E94;
+  $orange: #E46350;
+
   display: grid;
   grid: 1fr / 2fr repeat(6, 1fr) 2fr;
   text-align: center;
@@ -21,7 +24,7 @@
     transition: background 200ms;
 
     &:hover {
-      background: #E46350;
+      background: $green;
       cursor: pointer;
     }
   }
