@@ -23,7 +23,7 @@
   .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(5, 700px) 470px;
+    grid-template-rows: repeat(4, 700px) 470px;
     text-align: center;
   }
   
@@ -128,7 +128,7 @@
   
   .our-office {
     display: grid;
-    grid-row: 4;
+    grid-row: 3;
     grid-column: 1 / 4;
 
     background: #363636;
@@ -143,7 +143,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto repeat(5, 55px) auto;
-    grid-row: 5;
+    grid-row: 4;
     grid-column: 1 / 4;
     grid-column-gap: 16px;
 
@@ -232,7 +232,7 @@
   }
   
   .footer {
-    grid-row: 6;
+    grid-row: 5;
     grid-column: 1 / 4;
     display: grid;
 
