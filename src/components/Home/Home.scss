@@ -23,7 +23,7 @@
   .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 700px) 510px;
+    grid-template-rows: repeat(4, 700px) 630px;
     text-align: center;
   }
 
@@ -252,7 +252,7 @@
     }
 
     .social-media-icons {
-      padding-bottom: 12px;
+      padding-bottom: 45px;
     }
 
     .fa {
