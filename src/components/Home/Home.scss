@@ -332,6 +332,12 @@
         height: 150px;
       }
     }
+
+    .footer {
+      h3 {
+        width: 50%;
+      }
+    }
   }
 
   @media (max-width: 650px) {
@@ -346,6 +352,16 @@
 
       .sub-1, .sub-2, .sub-3, .sub-4, .sub-5, .sub-6, .sub-7, .sub-8, .sub-9, .sub-10 {
         grid-column: 1;
+      }
+    }
+
+    .footer {
+      h3 {
+        width: 95%;
+      }
+
+      .social-media-icons {
+        padding-bottom: 24px;
       }
     }
   }
