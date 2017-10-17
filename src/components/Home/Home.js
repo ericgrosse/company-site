@@ -3,7 +3,28 @@ import { Link } from 'react-router-dom'
 import 'components/Home/Home.scss'
 
 class Home extends Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      firstName: '',
+      lastName: '',
+      organization: '',
+      city: '',
+      telephone: '',
+      ext: '',
+      emailAddress: '',
+      projectDetails: '',
+    }
+  }
+
+  handleChange = (e) => {
+    this.setState({[e.target.name]: e.target.value})
+  }
+
   render() {
+    const {state} = this;
+
     return (
       <div className="Home">
         <div className="wrapper">
@@ -94,37 +115,85 @@ class Home extends Component {
             </div>
 
             <div className="sub sub-2">
-              <input type="text" value="First Name"/>
+              <input
+                type="text"
+                placeholder={'First Name'}
+                name={'firstName'}
+                value={state.firstName}
+                onChange={this.handleChange}
+              />
             </div>
 
             <div className="sub sub-3">
-              <input type="text" value="Last Name"/>
+              <input
+                type="text"
+                placeholder={'Last Name'}
+                name={'lastName'}
+                value={state.lastName}
+                onChange={this.handleChange}
+              />
             </div>
 
             <div className="sub sub-4">
-              <input type="text" value="Organization"/>
+              <input
+                type="text"
+                placeholder={'Organization'}
+                name={'organization'}
+                value={state.organization}
+                onChange={this.handleChange}
+              />
             </div>
 
             <div className="sub sub-5">
-              <input type="text" value="City"/>
+              <input
+                type="text"
+                placeholder={'City'}
+                name={'city'}
+                value={state.city}
+                onChange={this.handleChange}
+              />
             </div>
 
             <div className="sub sub-6">
               <div className="sub-sub sub-sub-1">
-                <input type="text" value="Telephone"/>
+                <input
+                  type="text"
+                  placeholder={'Telephone'}
+                  name={'telephone'}
+                  value={state.telephone}
+                  onChange={this.handleChange}
+                />
               </div>
               
               <div className="sub-sub sub-sub-2">
-                <input type="text" value="Ext."/>
+                <input
+                  type="text"
+                  placeholder={'Ext.'}
+                  name={'ext'}
+                  value={state.ext}
+                  onChange={this.handleChange}
+                />
               </div>
             </div>
 
             <div className="sub sub-7">
-              <input type="text" value="Email address"/>
+              <input
+                type="text"
+                placeholder={'Email Address'}
+                name={'emailAddress'}
+                value={state.emailAddress}
+                onChange={this.handleChange}
+              />
             </div>
 
             <div className="sub sub-8">
-              <input type="text" value="Project Details"/>
+              <input
+                type="text"
+                placeholder={'Project details'}
+                name={'projectDetails'}
+                value={state.projectDetails}
+                onChange={this.handleChange}
+              />
             </div>
 
             <div className="sub sub-9">
