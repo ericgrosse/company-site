@@ -155,6 +155,10 @@
       color: white;
     }
 
+    input {
+      width: calc(100% - 30px); // width has to be reduced by horizontal padding on each side
+    }
+
     .sub {
       border: 2px solid white;
       padding: 0;
