@@ -288,6 +288,10 @@
     .banner {
       grid-template-columns: 1fr;
       
+      img {
+        width: 80%;
+      }
+
       .sub-1 {
         grid-column: 1;
       }
@@ -331,6 +335,12 @@
   }
 
   @media (max-width: 650px) {
+    .banner {
+      img {
+        width: 100%;
+      }
+    }
+
     .our-expertise {
       grid-template-columns: 1fr;
 
