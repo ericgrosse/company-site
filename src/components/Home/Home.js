@@ -122,9 +122,7 @@ class Home extends Component {
                 value={state.firstName}
                 onChange={this.handleChange}
               />
-            </div>
 
-            <div className="sub sub-3">
               <input
                 type="text"
                 placeholder={'Last Name'}
@@ -132,9 +130,7 @@ class Home extends Component {
                 value={state.lastName}
                 onChange={this.handleChange}
               />
-            </div>
 
-            <div className="sub sub-4">
               <input
                 type="text"
                 placeholder={'Organization'}
@@ -142,9 +138,7 @@ class Home extends Component {
                 value={state.organization}
                 onChange={this.handleChange}
               />
-            </div>
 
-            <div className="sub sub-5">
               <input
                 type="text"
                 placeholder={'City'}
@@ -152,31 +146,23 @@ class Home extends Component {
                 value={state.city}
                 onChange={this.handleChange}
               />
-            </div>
 
-            <div className="sub sub-6">
-              <div className="sub-sub sub-sub-1">
-                <input
-                  type="text"
-                  placeholder={'Telephone'}
-                  name={'telephone'}
-                  value={state.telephone}
-                  onChange={this.handleChange}
-                />
-              </div>
-              
-              <div className="sub-sub sub-sub-2">
-                <input
-                  type="text"
-                  placeholder={'Ext.'}
-                  name={'ext'}
-                  value={state.ext}
-                  onChange={this.handleChange}
-                />
-              </div>
-            </div>
+              <input
+                type="text"
+                placeholder={'Telephone'}
+                name={'telephone'}
+                value={state.telephone}
+                onChange={this.handleChange}
+              />
+            
+              <input
+                type="text"
+                placeholder={'Ext.'}
+                name={'ext'}
+                value={state.ext}
+                onChange={this.handleChange}
+              />
 
-            <div className="sub sub-7">
               <input
                 type="text"
                 placeholder={'Email Address'}
@@ -184,9 +170,7 @@ class Home extends Component {
                 value={state.emailAddress}
                 onChange={this.handleChange}
               />
-            </div>
 
-            <div className="sub sub-8">
               <input
                 type="text"
                 placeholder={'Project details'}
@@ -194,9 +178,7 @@ class Home extends Component {
                 value={state.projectDetails}
                 onChange={this.handleChange}
               />
-            </div>
 
-            <div className="sub sub-9">
               <button>Submit Request</button>
             </div>
           </div>

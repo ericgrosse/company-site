@@ -145,12 +145,11 @@
   
   .request-quote {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 55px);
+    grid-template-columns: 1fr 2fr 2fr 1fr;
     grid-row: 4;
     grid-column: 1 / 4;
     grid-column-gap: 24px;
-    //align-items: center;
+    align-items: center;
 
     background: #E46350;
     color: white;
@@ -160,65 +159,13 @@
       color: white;
     }
 
-    input {
-      width: calc(100% - 30px); // width has to be reduced by horizontal padding on each side
-    }
-
-    .sub {
-      border: 2px solid white;
-      padding: 0;
-    }
-
-    .sub-sub-1 {
-
-    }
-
-    .sub-sub-2 {
-
-    }
-
     .sub-1 {
       grid-column: 2;
-      grid-row: 1 / span 4;
-      text-align: left;
-      border: none;
     }
 
-    .sub-2 {
-      grid-column: 3;
-    }
-
-    .sub-3 {
-      grid-column: 4;
-    }
-
-    .sub-4 {
-      grid-column: 3;
-    }
-
-    .sub-5 {
-      grid-column: 4;
-    }
-
-    .sub-6 {
-      grid-column: 3;
-      display: grid;
-      grid-template-columns: 3fr 1fr;
-      grid-column-gap: 16px;
-    }
-
-    .sub-7 {
-      grid-column: 4;
-    }
-
-    .sub-8 {
-      grid-column: 3;
-    }
-
-    .sub-9 {
-      grid-column: 3;
-      text-align: left;
-      border: none;
+    input {
+      border: 2px solid white;
+      width: 40%;
     }
   }
   
