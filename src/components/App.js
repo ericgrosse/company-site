@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Header from 'components/Header/Header'
 import MobileHeader from 'components/Header/MobileHeader'
 import Routes from 'components/Routes'
-//import windowSize from 'react-window-size'
+import windowSize from 'react-window-size'
 import 'components/app.scss'
 
 class App extends Component {
@@ -22,4 +22,4 @@ class App extends Component {
   }
 }
 
-export default App
+export default windowSize(App)
