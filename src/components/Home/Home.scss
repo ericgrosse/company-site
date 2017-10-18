@@ -32,7 +32,7 @@
 
   .banner {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns:  1fr repeat(3, 2fr) 1fr;
     grid-column: 1 / span 3;
     align-items: center;
     
@@ -59,12 +59,23 @@
     .fa {
       color: $black;
       font-size: 80px;
-      margin: 20px 0;
+      margin: 10px 0;
     }
 
     .sub {
       h3, p {
         color: $black;
+      }
+    }
+
+    .sub-2, .sub-3, .sub-4 {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      align-items: center;
+
+      h3, p {
+        margin-bottom: 0;
       }
     }
 
