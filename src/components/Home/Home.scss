@@ -145,7 +145,7 @@
   
   .request-quote {
     display: grid;
-    grid-template-columns: 15% 18% 52% 15%;
+    grid-template-columns: 18% 20% 44% 18%;
     grid-row: 4;
     grid-column: 1 / 4;
     grid-column-gap: 24px;
@@ -159,6 +159,8 @@
       color: white;
       margin: 6px;
       margin-bottom: 0;
+      padding: 10px 10px;
+      width: 115%; // need to exceed grid column dimensions slightly
     }
 
     input {
@@ -186,6 +188,8 @@
 
       display: grid;
       grid-template-columns: 35% 15% 50%;
+      grid-template-rows: repeat(4, 55px) auto;
+      align-items: start;
 
       .first-name {
         grid-column: 1 / span 2;
