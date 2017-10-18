@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Header from 'components/Header/Header'
+import MobileHeader from 'components/Header/MobileHeader'
 import Routes from 'components/Routes'
 import windowSize from 'react-window-size'
 import 'components/app.scss'
@@ -11,7 +12,9 @@ class App extends Component {
     return (
       <div>
         {
-          props.windowWidth >= 1000 && <Header />
+          props.windowWidth >= 1000 ?
+          <Header /> :
+          <MobileHeader />
         }
         <Routes />
       </div>
