@@ -2,22 +2,29 @@
   $green: #3F9E94;
   $orange: #E46350;
 
-  .header-content {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  text-align: center;
+  text-align: right;
   background: #272727;
   color: white;
   font-family: helvetica;
   font-weight: bold;
   letter-spacing: 0.7px;
-  //height: 66px;
+  min-height: 40px;
   align-items: center; // vertically centers the header text
 
-  .header {
+  .header-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
 
+  .fa {
+    font-size: 30px;
+    padding-top: 4px;
+    padding-right: 24px;
+  }
+
+  .home-button {
+    margin-top: 12px;
   }
 
   a {
