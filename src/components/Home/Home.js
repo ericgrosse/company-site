@@ -187,7 +187,7 @@ class Home extends Component {
                 onChange={this.handleChange}
               />
 
-              <button>Submit Request</button>
+              <button className="submit-request">Submit Request</button>
             </div>
           </div>
 
