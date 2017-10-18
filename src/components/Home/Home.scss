@@ -145,7 +145,7 @@
   
   .request-quote {
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
     grid-row: 4;
     grid-column: 1 / 4;
     grid-column-gap: 24px;
@@ -157,6 +157,10 @@
     button {
       border-color: white;
       color: white;
+    }
+
+    .sub {
+      text-align: left;
     }
 
     .sub-1 {
@@ -172,6 +176,12 @@
     input {
       border: 2px solid white;
       width: 40%;
+      margin: 6px;
+    }
+
+    button {
+      margin: 6px;
+      margin-bottom: 0;
     }
   }
   
