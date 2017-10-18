@@ -37,21 +37,30 @@ class Home extends Component {
               <h3>Our Services</h3>
               <i className="fa fa-server" aria-hidden="true"/>
               <p>We offer web development services for projects of any scale</p>
-              <button>What we offer</button>
+              
+              <Link to="/services">
+                <button>What we offer</button>
+              </Link>
             </div>
 
             <div className="sub sub-3">
               <h3>Our Portfolio</h3>
               <i className="fa fa-folder-open" aria-hidden="true"/>
               <p>We build responsive websites with fluid layouts and elegant animations</p>
-              <button>What we've done</button>
+              
+              <Link to="/portfolio">
+                <button>What we've done</button>
+              </Link>
             </div>
 
             <div className="sub sub-4">
               <h3>About Us</h3>
               <i className="fa fa-user-circle" aria-hidden="true"/>
               <p>We are a small team of dedicated web developers and concept artists</p>
-              <button>What we're about</button>
+              
+              <Link to="/about">
+                <button>What we're about</button>
+              </Link>
             </div>
           </div>
           

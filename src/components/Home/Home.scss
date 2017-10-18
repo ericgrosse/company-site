@@ -51,8 +51,8 @@
       color: white;
 
       &:hover {
-        //border-color: $green-alt;
-        //background-color: $green-alt;
+        border-color: darken($green-alt, 10%);
+        background-color: darken($green-alt, 10%);
       }
     }
 
