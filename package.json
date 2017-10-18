@@ -28,7 +28,6 @@
   },
   "homepage": "https://github.com/gaearon/react-hot-boilerplate",
   "devDependencies": {
-    "react-window-size": "^1.0.1"
   },
   "dependencies": {
     "babel-core": "^6.0.20",
@@ -52,6 +51,7 @@
     "webpack-hot-middleware": "^2.10.0",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
-    "react-router-dom": "^4.2.2"
+    "react-router-dom": "^4.2.2",
+    "react-window-size": "^1.0.1"    
   }
 }
