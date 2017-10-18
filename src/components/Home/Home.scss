@@ -13,7 +13,7 @@
     //margin: 0 auto;
   }
 
-  .wrapper > div {
+  .section {
     padding: 8px;
   }
 
@@ -313,6 +313,8 @@
     .banner {
       grid-template-columns: 28% 44% 28%;
       
+      padding-bottom: 60px;
+
       img {
         width: 80%;
       }
@@ -360,6 +362,7 @@
 
     .request-quote {
       grid-template-columns: 1fr;
+      padding-bottom: 60px;
 
       button {
         width: auto;

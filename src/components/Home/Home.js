@@ -28,7 +28,7 @@ class Home extends Component {
     return (
       <div className="Home">
         <div className="wrapper">
-          <div className="banner">
+          <div className="section banner">
             <div className="sub sub-1">
               <img src={require('images/logo.png')}/>
             </div>
@@ -64,7 +64,7 @@ class Home extends Component {
             </div>
           </div>
           
-          <div className="our-expertise">
+          <div className="section our-expertise">
             <div className="sub sub-1">
               <h3>Our Expertise</h3>
             </div>
@@ -106,7 +106,7 @@ class Home extends Component {
             </div>
           </div>
           
-          <div className="our-office">
+          <div className="section our-office">
             <div className="sub sub-1">
               <h3>Our Office</h3>
               <p>Montreal</p>
@@ -117,7 +117,7 @@ class Home extends Component {
             </div>
           </div>
 
-          <div className="request-quote">
+          <div className="section request-quote">
             <div className="sub sub-1">
               <h3>Request A Quote</h3>
               <p>Request a quote and we will respond as soon as possible with a customized quote tailored to your specific project needs.</p>
@@ -200,7 +200,7 @@ class Home extends Component {
             </div>
           </div>
 
-          <div className="footer">
+          <div className="section footer">
             <div className="sub sub-1">
               <h3>“ Everyone takes the limits of his own vision for the limits of the world. ”</h3>
               <p>— Arthur Schopenhauer</p>
