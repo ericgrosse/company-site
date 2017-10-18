@@ -35,6 +35,7 @@
     grid-template-columns:  1fr repeat(3, 2fr) 1fr;
     grid-column: 1 / span 3;
     align-items: center;
+    grid-column-gap: 45px;
     
     background-image: url('~images/background-2.png');
     background-size: cover;
@@ -274,6 +275,20 @@
 
     .sub-1 {
       margin-top: 60px;
+    }
+  }
+
+  // Custom breakpoint for banner section
+  @media (max-width: 1210px) {
+    .banner {
+      grid-column-gap: 0;
+    }
+  }
+
+  // Custom breakpoint for banner section
+  @media (max-width: 1040px) {
+    .banner {
+      grid-template-columns:  1fr repeat(3, 3fr) 1fr;
     }
   }
 
