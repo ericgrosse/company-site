@@ -116,6 +116,7 @@ class Home extends Component {
 
             <div className="sub sub-2">
               <input
+                className="first-name"
                 type="text"
                 placeholder={'First Name'}
                 name={'firstName'}
@@ -124,6 +125,7 @@ class Home extends Component {
               />
 
               <input
+                className="last-name"
                 type="text"
                 placeholder={'Last Name'}
                 name={'lastName'}
@@ -132,6 +134,7 @@ class Home extends Component {
               />
 
               <input
+                className="organization"
                 type="text"
                 placeholder={'Organization'}
                 name={'organization'}
@@ -140,6 +143,7 @@ class Home extends Component {
               />
 
               <input
+                className="city"
                 type="text"
                 placeholder={'City'}
                 name={'city'}
@@ -148,6 +152,7 @@ class Home extends Component {
               />
 
               <input
+                className="telephone"
                 type="text"
                 placeholder={'Telephone'}
                 name={'telephone'}
@@ -156,6 +161,7 @@ class Home extends Component {
               />
             
               <input
+                className="extension"
                 type="text"
                 placeholder={'Ext.'}
                 name={'ext'}
@@ -164,6 +170,7 @@ class Home extends Component {
               />
 
               <input
+                className="email-address"
                 type="text"
                 placeholder={'Email Address'}
                 name={'emailAddress'}
@@ -172,6 +179,7 @@ class Home extends Component {
               />
 
               <input
+                className="project-details"
                 type="text"
                 placeholder={'Project details'}
                 name={'projectDetails'}

@@ -157,6 +157,18 @@
     button {
       border-color: white;
       color: white;
+      margin: 6px;
+      margin-bottom: 0;
+    }
+
+    input {
+      border: 2px solid white;
+      width: calc(100% - 45px);
+      margin: 6px;
+    }
+
+    .column {
+      display: grid;
     }
 
     .sub {
@@ -171,17 +183,41 @@
     .sub-2 {
       grid-row: 2;
       grid-column: 3;
-    }
 
-    input {
-      border: 2px solid white;
-      width: 40%;
-      margin: 6px;
-    }
+      display: grid;
+      grid-template-columns: 35% 15% 50%;
 
-    button {
-      margin: 6px;
-      margin-bottom: 0;
+      .first-name {
+        grid-column: 1 / span 2;
+      }
+
+      .last-name {
+        grid-column: 3;
+      }
+
+      .organization {
+        grid-column: 1 / span 2;
+      }
+
+      .city {
+        grid-column: 3;
+      }
+
+      .telephone {
+        grid-column: 1;
+      }
+
+      .extension {
+        grid-column: 2;
+      }
+
+      .email-address {
+        grid-column: 3;
+      }
+
+      .project-details {
+        grid-column: 1 / span 3;
+      }
     }
   }
   
