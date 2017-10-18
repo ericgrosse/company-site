@@ -109,7 +109,7 @@ class Home extends Component {
           <div className="our-office">
             <div className="sub sub-1">
               <h3>Our Office</h3>
-              <h4>Montreal</h4>
+              <p>Montreal</p>
               <p>153 ave de la Pointe-Claire</p>
               <p>Pointe-Claire, Quebec</p>
               <p>Canada H9S 4M7</p>
