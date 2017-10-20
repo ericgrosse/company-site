@@ -3,7 +3,7 @@ import Header from 'components/Header/Header'
 import MobileHeader from 'components/Header/MobileHeader'
 import Routes from 'components/Routes'
 import windowSize from 'react-window-size'
-import 'components/app.scss'
+import 'styles/app.scss'
 
 class App extends Component {
   render() {
