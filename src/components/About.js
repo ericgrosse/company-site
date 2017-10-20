@@ -7,7 +7,7 @@ const About = () => (
     <div className="wrapper">
       <div className="section one">
         <div className="subsection photo">
-          Photo
+          <img src={'http://via.placeholder.com/350x150'}/>
         </div>
 
         <div className="subsection content">
@@ -17,7 +17,7 @@ const About = () => (
 
       <div className="section two">
         <div className="subsection photo">
-          Photo
+          <img src={'http://via.placeholder.com/350x150'}/>
         </div>
 
         <div className="subsection content">
@@ -27,7 +27,7 @@ const About = () => (
       
       <div className="section three">
         <div className="subsection photo">
-          Photo
+          <img src={'http://via.placeholder.com/350x150'}/>
         </div>
 
         <div className="subsection content">
@@ -37,7 +37,7 @@ const About = () => (
       
       <div className="section four">
         <div className="subsection photo">
-          Photo
+          <img src={'http://via.placeholder.com/350x150'}/>
         </div>
 
         <div className="subsection content">
@@ -47,7 +47,7 @@ const About = () => (
       
       <div className="section five">
         <div className="subsection photo">
-          Photo
+          <img src={'http://via.placeholder.com/350x150'}/>
         </div>
 
         <div className="subsection content">
