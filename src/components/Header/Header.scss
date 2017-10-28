@@ -3,6 +3,10 @@
   $orange: #E46350;
   $white: #FAFAFA;
   $black: #333;
+  $mask: rgba(0,0,0,0.2);
+
+  background: $mask;
+  //position: fixed;
 
   .container {
     max-width: 1200px;
