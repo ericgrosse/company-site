@@ -75,7 +75,21 @@
   }
 
   a:hover::before, a:hover::after, a:focus::before, a:focus::after {
-    opacity: 1;
-    transform: translateY(0px);
+    animation: header_animation 0.6s;
+  }
+
+  @keyframes header_animation {
+    0% {
+      
+    }
+
+    50% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+
+    100% {
+      opacity: 0;
+    }
   }
 }
