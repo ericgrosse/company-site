@@ -2,19 +2,38 @@
   $green: #3F9E94;
   $orange: #E46350;
 
-  display: grid;
-  grid: 1fr / 2fr repeat(4, 1fr) 2fr;
-  text-align: center;
-  background: #272727;
-  color: white;
-  font-family: helvetica;
-  font-weight: bold;
-  letter-spacing: 0.7px;
-  height: 24px;
-  align-items: center; // vertically centers the header text
+  .portfolio-subsection {
+    position: absolute;
+    display: none;
+    top: 15px;
+    left: 0;
 
-  .header {
+    background: red;
+  }
 
+  .portfolio-container {
+    position: relative;
+  }
+
+  .portfolio-container:hover .portfolio-subsection {
+    display: block;
+  }
+
+  .portfolio-subsection:hover {
+    display: block;
+  }
+
+  .grid {
+    display: grid;
+    grid: 1fr / 2fr repeat(4, 1fr) 2fr;
+    text-align: center;
+    background: #272727;
+    color: white;
+    font-family: helvetica;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    height: 24px;
+    align-items: center; // vertically centers the header text    
   }
 
   a {
