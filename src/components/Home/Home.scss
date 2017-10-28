@@ -14,7 +14,7 @@
   }
 
   .section {
-    padding: 8px;
+    min-height: 700px;
   }
 
   .sub {
@@ -22,9 +22,8 @@
   }
 
   .wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 900px repeat(3, $rowHeight) 630px;
+    max-width: 1200px;
+    margin: 0 auto;
     text-align: center;
   }
 
@@ -55,10 +54,12 @@
       background-size: cover;
       transition: 1s opacity;
     }
-
-    img {
-      width: 47%;
-    }
+  }
+  
+  .our-services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: $green;
 
     button {
       margin-top: 10px;
@@ -73,18 +74,18 @@
     }
 
     .fa {
-      color: $black;
+      color: white;
       font-size: 80px;
       margin: 10px 0;
     }
 
     .sub {
       h3, p {
-        color: $black;
+        color: white;
       }
     }
 
-    .sub-2, .sub-3, .sub-4 {
+    .sub-1, .sub-2, .sub-3 {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(3, 1fr);
@@ -94,27 +95,8 @@
         margin-bottom: 0;
       }
     }
-
-    .sub-1 {
-      grid-column: 2 / span 3;
-    }
-
-    .sub-2 {
-      grid-row: 2;
-      grid-column: 2;
-    }
-
-    .sub-3 {
-      grid-row: 2;
-      grid-column: 3;
-    }
-
-    .sub-4 {
-      grid-row: 2;
-      grid-column: 4;
-    }
   }
-  
+
   .our-expertise {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
