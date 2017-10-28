@@ -75,7 +75,9 @@
   }
 
   a:hover::before, a:hover::after, a:focus::before, a:focus::after {
-    animation: header_animation 0.6s;
+    //animation: header_animation 0.6s forwards;
+    opacity: 1;
+    transform: translateY(0px);
   }
 
   @keyframes header_animation {
@@ -83,13 +85,9 @@
       
     }
 
-    50% {
+    100% {
       opacity: 1;
       transform: translateY(0px);
-    }
-
-    100% {
-      opacity: 0;
     }
   }
 }
