@@ -38,7 +38,7 @@ class Home extends Component {
           </div>
           
           <div className="section our-services">
-            <div className="sub sub-1">
+            <div className="subsection subsection-1">
               <h3>Our Services</h3>
               <p>We offer web development services for projects of any scale</p>
               <i className="fa fa-server" aria-hidden="true"/>
@@ -48,7 +48,7 @@ class Home extends Component {
               </Link>
             </div>
 
-            <div className="sub sub-2">
+            <div className="subsection subsection-2">
               <h3>Our Portfolio</h3>
               <p>We build responsive websites with fluid layouts and elegant animations</p>
               <i className="fa fa-folder-open" aria-hidden="true"/>
@@ -58,7 +58,7 @@ class Home extends Component {
               </Link>
             </div>
 
-            <div className="sub sub-3">
+            <div className="subsection subsection-3">
               <h3>About Us</h3>
               <p>We are a small team of dedicated web developers and concept artists</p>
               <i className="fa fa-user-circle" aria-hidden="true"/>
@@ -70,49 +70,49 @@ class Home extends Component {
           </div>
 
           <div className="section our-expertise">
-            <div className="sub sub-1">
+            <div className="subsection subsection-1">
               <h3>Our Expertise</h3>
             </div>
             
-            <div className="sub sub-2">
+            <div className="subsection subsection-2">
               <img src={require('images/react-logo-1000x1000.png')}/>
             </div>
             
-            <div className="sub sub-3">
+            <div className="subsection subsection-3">
               <img src={require('images/webpack-logo-800x925.png')}/>
             </div>
             
-            <div className="sub sub-4">
+            <div className="subsection subsection-4">
               <img src={require('images/node-js-logo-1000x612.png')}/>
             </div>
 
-            <div className="sub sub-5">
+            <div className="subsection subsection-5">
               <img src={require('images/html5+css3.png')}/>
             </div>
 
-            <div className="sub sub-6">
+            <div className="subsection subsection-6">
               <img src={require('images/mysql-logo-1024x530.png')}/>
             </div>
 
-            <div className="sub sub-7">
+            <div className="subsection subsection-7">
               <img src={require('images/mongodb-logo-375x375.png')}/>
             </div>
 
-            <div className="sub sub-8">
+            <div className="subsection subsection-8">
               <img src={require('images/github-icon-512x512-2.png')}/>
             </div>
 
-            <div className="sub sub-9">
+            <div className="subsection subsection-9">
               <img src={require('images/circle-ci-logo-400x400.png')}/>
             </div>
 
-            <div className="sub sub-10">
+            <div className="subsection subsection-10">
               <img src={require('images/photoshop-logo-512x512.png')}/>
             </div>
           </div>
           
           <div className="section our-office">
-            <div className="sub sub-1">
+            <div className="subsection subsection-1">
               <h3>Our Office</h3>
               <p>Montreal</p>
               <p>153 ave de la Pointe-Claire</p>
@@ -123,12 +123,12 @@ class Home extends Component {
           </div>
 
           <div className="section request-quote">
-            <div className="sub sub-1">
+            <div className="subsection subsection-1">
               <h3>Request A Quote</h3>
               <p>Request a quote and we will respond as soon as possible with a customized quote tailored to your specific project needs.</p>
             </div>
 
-            <div className="sub sub-2">
+            <div className="subsection subsection-2">
               <input
                 className="first-name"
                 type="text"
@@ -206,12 +206,12 @@ class Home extends Component {
           </div>
 
           <div className="section footer">
-            <div className="sub sub-1">
+            <div className="subsection subsection-1">
               <h3>“ Everyone takes the limits of his own vision for the limits of the world. ”</h3>
               <p>— Arthur Schopenhauer</p>
             </div>
               
-            <div className="sub sub-2">
+            <div className="subsection subsection-2">
               <p className="copyright">© 2017 Singularity Software. All rights reserved.</p>
 
               <div className="social-media-icons">
