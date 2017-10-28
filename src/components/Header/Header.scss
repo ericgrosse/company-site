@@ -74,7 +74,7 @@
     transform: translateY(10px);
   }
 
-  a:hover::before, a:hover::after, a:focus::before, a:focus::after {
+  a:hover::before, a:hover::after {
     //animation: header_animation 0.6s forwards;
     opacity: 1;
     transform: translateY(0px);
