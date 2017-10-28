@@ -24,7 +24,7 @@
   .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, $rowHeight) 630px;
+    grid-template-rows: 900px repeat(3, $rowHeight) 630px;
     text-align: center;
   }
 
@@ -51,7 +51,7 @@
       height: auto;
       z-index: -100;
       transform: translateX(-50%) translateY(-50%);
-      background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+      //background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
       background-size: cover;
       transition: 1s opacity;
     }
