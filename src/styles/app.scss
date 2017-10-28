@@ -1,3 +1,5 @@
+$black: #333;
+
 * {
   min-height: 0;
   min-width: 0;
@@ -72,25 +74,25 @@ input {
 /* input placeholder text color */
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color: white;
+    color: $black;
 }
 
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color: white;
+   color: $black;
    opacity: 1;
 }
 
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color: white;
+   color: $black;
    opacity: 1;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color: white;
+   color: $black;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
-   color: white;
+   color: $black;
 }
 
 /* react-slick specific styling */
