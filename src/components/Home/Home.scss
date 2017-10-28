@@ -10,7 +10,7 @@
   $rowHeight: 700px;
 
   .wrapper {
-    max-width: 1200px;
+    max-width: 1350px;
     margin: 0 auto;
     text-align: center;
   }
@@ -79,17 +79,22 @@
     .fa {
       font-size: 80px;
       margin: 10px 0;
+      display: block;
     }
 
-    .sub-1, .sub-2, .sub-3 {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: repeat(3, 1fr);
-      align-items: center;
+    h3 {
+      font-size: 56px;
+      line-height: 1.07;
+      font-weight: 600;
+      letter-spacing: -0.005em;
+      color: #111;
+    }
 
-      h3, p {
-        margin-bottom: 0;
-      }
+    p {
+      font-size: 21px;
+      line-height: 1.38;
+      font-weight: 400;
+      letter-spacing: 0.011em;
     }
   }
 
