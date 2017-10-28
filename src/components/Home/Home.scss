@@ -100,46 +100,25 @@
 
   .our-expertise {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     align-items: center;
-    grid-row: 2;
-    grid-column: 1 / 4;
 
     .sub {
       margin-bottom: 2em;
     }
 
     .sub-1 {
-      grid-column: 1 / span 7;
+      grid-column: 1 / span 5; // might not be the best way to handle the header
       margin-bottom: 0;
     }
 
-    .sub-2 {
-      grid-column: 2;
-    }
-
     .sub-5 {
-      grid-column: 5 / span 2;
-    }
-
-    .sub-6 {
-      grid-row: 3;
-      grid-column: 2;
-    }
-
-    .sub-7 {
-      grid-column: 3;
-    }
-
-    .sub-9 {
-      //grid-column: 5 / span 2;
+      grid-column: 4 / span 2;
     }
   }
   
   .our-office {
     display: grid;
-    grid-row: 3;
-    grid-column: 1 / 4;
     align-items: center;
 
     h3 {
@@ -150,10 +129,7 @@
   .request-quote {
     display: grid;
     grid-template-columns: 18% 20% 44% 18%;
-    grid-row: 4;
-    grid-column: 1 / 4;
     grid-column-gap: 24px;
-    //align-items: center;
 
     button {
       border-color: $black;
@@ -227,8 +203,6 @@
   }
   
   .footer {
-    grid-row: 5;
-    grid-column: 1 / 4;
     display: grid;
     align-items: center;
 
