@@ -29,6 +29,13 @@ class Home extends Component {
       <div className="Home">
         <div className="wrapper">
           <div className="section banner">
+            <video autoPlay loop id="video-background" muted plays-inline>
+              <source
+                src="https://v.ftcdn.net/01/13/67/58/700_F_113675849_VGWcqN6kbNzMP4qxwq89DgmuZjMtLwdh_ST.mp4"
+                type="video/mp4"
+              />
+            </video>
+
             <div className="sub sub-1">
               <img src={require('images/logo.png')}/>
             </div>
