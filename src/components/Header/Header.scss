@@ -32,19 +32,50 @@
     font-family: helvetica;
     font-weight: bold;
     letter-spacing: 0.7px;
-    height: 24px;
+    //height: 24px;
     align-items: center; // vertically centers the header text    
   }
 
   a {
     text-decoration: none;
-    color: inherit;
-    padding: 0 24px;
-    transition: background 200ms;
+    padding: 10px;
+    color: #237546; //inherit;
+    transition: color 0.3s;
 
     &:hover {
-      background: $green;
+      color: white;
       cursor: pointer;
     }
+
+    position: relative;
+    display: inline-block;
+    margin: 15px 25px;
+  }
+
+  a::before, a::after {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: white;
+    content: '';
+    opacity: 0;
+    transform: translateY(-15px);
+    transition: opacity 0.3s, transform 0.3s;
+  }
+
+  a::before {
+    top: 0;
+    transform: translateY(-10px);
+  }
+
+  a::after {
+    bottom: 0;
+    transform: translateY(10px);
+  }
+
+  a:hover::before, a:hover::after, a:focus::before, a:focus::after {
+    opacity: 1;
+    transform: translateY(0px);
   }
 }
