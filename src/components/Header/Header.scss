@@ -1,13 +1,39 @@
 .Header {
   $green: #3F9E94;
   $orange: #E46350;
+  $white: #FAFAFA;
+  $black: #333;
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 125px);
+    justify-content: end;
+    //background: #272727;
+    color: $white;
+    font-family: helvetica;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    //height: 24px;
+    align-items: center; // vertically centers the header text
+  }
+
+  /* Subsection styling */
 
   .portfolio-subsection {
     position: absolute;
     display: none;
     top: 68px;
     left: 0;
-    background: red;
+    background: $white;
+    
+    a {
+      color: $black;
+    }
   }
 
   .portfolio-container {
@@ -22,18 +48,7 @@
     display: block;
   }
 
-  .grid {
-    display: grid;
-    grid: 1fr / 2fr repeat(4, 1fr) 2fr;
-    text-align: center;
-    //background: #272727;
-    color: white;
-    font-family: helvetica;
-    font-weight: bold;
-    letter-spacing: 0.7px;
-    //height: 24px;
-    align-items: center; // vertically centers the header text    
-  }
+  /* Link styling */
 
   a {
     text-decoration: none;
