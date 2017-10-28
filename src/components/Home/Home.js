@@ -36,6 +36,18 @@ class Home extends Component {
               />
             </video>
           </div>
+
+          <div className="section our-services">
+            <div className="subsection left">
+              <h3>Our Services</h3>
+              <p>We offer web development services for projects of any scale</p>
+              <Link to="/services">What we offer</Link>
+            </div>
+
+            <div className="subsection right">
+              <img src={require('images/naska/1.jpg')}/>
+            </div>
+          </div>
           
           <div className="section our-services">
             <div className="subsection subsection-1">

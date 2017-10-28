@@ -63,39 +63,7 @@
   
   .our-services {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
-    button {
-      border-color: $green-alt;
-      background-color: $green-alt;
-      color: $black;
-
-      &:hover {
-        border-color: darken($green-alt, 10%);
-        background-color: darken($green-alt, 10%);
-      }
-    }
-
-    .fa {
-      font-size: 80px;
-      margin: 10px 0;
-      display: block;
-    }
-
-    h3 {
-      font-size: 56px;
-      line-height: 1.07;
-      font-weight: 600;
-      letter-spacing: -0.005em;
-      color: #111;
-    }
-
-    p {
-      font-size: 21px;
-      line-height: 1.38;
-      font-weight: 400;
-      letter-spacing: 0.011em;
-    }
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .our-expertise {
