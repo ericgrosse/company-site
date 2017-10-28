@@ -5,9 +5,8 @@
   .portfolio-subsection {
     position: absolute;
     display: none;
-    top: 15px;
+    top: 68px;
     left: 0;
-
     background: red;
   }
 
@@ -15,7 +14,7 @@
     position: relative;
   }
 
-  .portfolio-container:hover .portfolio-subsection {
+  .portfolio-button:hover + .portfolio-subsection {
     display: block;
   }
 
