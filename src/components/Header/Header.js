@@ -6,8 +6,8 @@ const Header = () => (
   <div className="Header">
     <div className="gutter"/>
 
-    <Link className="header about-button" to='/about'>About</Link>
     <Link className="header portfolio-button" to='/portfolio'>Portfolio</Link>
+    <Link className="header about-button" to='/about'>About</Link>
     <Link className="header quote-request-button" to='/contact'>Contact</Link>
 
     <div className="gutter"/>
