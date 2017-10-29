@@ -6,7 +6,9 @@ const Header = () => (
   <div className="Header">
     <div className="grid-container">
       <section className="logo">
-        <img src={'http://via.placeholder.com/100x50'}/>
+        <Link to='/'>
+          <img className="animated lightSpeedIn" src={'http://via.placeholder.com/100x50'}/>
+        </Link>
       </section>
 
       <section className="portfolio">

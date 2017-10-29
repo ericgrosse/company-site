@@ -25,6 +25,16 @@
     img {
       margin-top: 8px;
     }
+
+    // Have to strip away all the link styling used for the other header elements
+    a {
+      margin: 0;
+      padding: 0;
+
+      &::before, &::after {
+        content: none;
+      }
+    }
   }
 
   section.portfolio {
