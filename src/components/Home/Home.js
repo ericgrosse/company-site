@@ -65,7 +65,7 @@ class Home extends Component {
             </div>
           </div>
 
-          <div className="section our-expertise">
+          {/*<div className="section our-expertise">
             <div className="subsection subsection-1">
               <h3>Our Expertise</h3>
             </div>
@@ -105,7 +105,7 @@ class Home extends Component {
             <div className="subsection subsection-10">
               <img src={require('images/photoshop-logo-512x512.png')}/>
             </div>
-          </div>
+          </div>*/}
           
           <div className="section our-office">
             <div className="subsection subsection-1">

@@ -65,11 +65,19 @@
   .our-services {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+
+    p {
+      margin-bottom: 0.75em;
+    }
   }
 
   .our-portfolio {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+
+    p {
+      margin-bottom: 0.75em;
+    }
   }
 
   .our-expertise {

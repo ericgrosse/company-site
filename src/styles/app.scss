@@ -24,6 +24,7 @@ h3 {
   line-height: 1.07;
   letter-spacing: -0.005em;
   color: $black-alt;
+  margin: 0;
 }
 
 p {
@@ -33,6 +34,8 @@ p {
   line-height: 1.38;
   letter-spacing: 0.011em;
   color: $black;
+  margin-top: 1.2em;
+  margin-bottom: 0;
 }
 
 a {
