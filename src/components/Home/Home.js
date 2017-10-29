@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import ScrollAnimation from 'react-animate-on-scroll'
 import 'components/Home/Home.scss'
 
 class Home extends Component {
