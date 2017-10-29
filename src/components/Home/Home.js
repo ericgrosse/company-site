@@ -222,7 +222,7 @@ class Home extends Component {
         <section className="footer">
           <div className="grid-container">              
             <div className="subsection">
-              <p className="copyright">© 2017 Singularity Software. All rights reserved.</p>
+              <p className="copyright">© 2017 Web Singularity. All rights reserved.</p>
 
               <div className="social-media-icons">
                 <i className="fa fa-github" aria-hidden="true"/>
