@@ -5,80 +5,54 @@
   $black: #333;
   $mask: rgba(0,0,0,0.2);
 
-  a {
-    font-size: 16px;
-    font-weight: bold;
-    letter-spacing: 0.7px;
-
-    &:hover {
-      text-decoration: none;
-    }
-  }
-
   background: $mask;
-  //position: fixed;
 
-  .container {
+  .grid-container {
     max-width: 1350px;
     margin: 0 auto;
-  }
-
-  .grid {
     display: grid;
-    grid-template-columns: repeat(3, 140px);
+    grid-template-columns: 70% repeat(3, 1fr);
     justify-content: end;
-    text-align: center;
-    //background: #272727;
-    color: $white;
-    font-family: helvetica;
-    font-weight: bold;
-    letter-spacing: 0.7px;
-    //height: 24px;
-    align-items: center; // vertically centers the header text
   }
 
-  /* Subsection styling */
+  section {
+    text-align: center;
+  }
 
-  .portfolio-subsection {
-    position: absolute;
-    display: none;
-    top: 68px;
-    left: 0;
-    background: $white;
-    
-    a {
-      color: $black;
+  section.logo {
+    text-align: left;
+
+    img {
+      margin-top: 8px;
     }
   }
 
-  .portfolio-container {
-    position: relative;
-  }
-
-  .portfolio-button:hover + .portfolio-subsection {
-    display: block;
-  }
-
-  .portfolio-subsection:hover {
-    display: block;
+  section.portfolio {
+    .subsection {
+      display: none;
+    }
   }
 
   /* Link styling */
 
   a {
     text-decoration: none;
-    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.7px;
     color: white; //inherit;
+    padding: 10px;
     transition: color 0.3s;
-
-    &:hover {
-      color: white;
-      cursor: pointer;
-    }
 
     position: relative;
     display: inline-block;
     margin: 15px 25px;
+
+    &:hover {
+      color: white;
+      cursor: pointer;
+      text-decoration: none;
+    }
   }
 
   a::before, a::after {
@@ -104,19 +78,7 @@
   }
 
   a:hover::before, a:hover::after {
-    //animation: header_animation 0.6s forwards;
     opacity: 1;
     transform: translateY(0px);
-  }
-
-  @keyframes header_animation {
-    0% {
-      
-    }
-
-    100% {
-      opacity: 1;
-      transform: translateY(0px);
-    }
   }
 }
