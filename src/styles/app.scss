@@ -83,12 +83,27 @@ input {
   width: 100%;
   border: none;
   outline: none;
-  color: white;
+  //color: white;
   background: transparent;
   font-family: Helvetica;
   font-size: 17px;
   //height: 40px;
   padding: 10px 15px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+textarea {
+  width: 100%;
+  padding: 10px 15px;
+  border: 2px solid $black;
+  color: $black;
+  background: transparent;
+  font-family: Helvetica;
+  font-size: 17px;
+  resize: none;
 
   &:focus {
     outline: none;

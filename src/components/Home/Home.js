@@ -144,9 +144,8 @@ class Home extends Component {
                 onChange={this.handleChange}
               />
 
-              <input
+              <textarea
                 className="project-details"
-                type="text"
                 placeholder={'Project details'}
                 name={'projectDetails'}
                 value={state.projectDetails}

@@ -105,6 +105,12 @@
       margin: 6px;
     }
 
+    textarea {
+      margin: 6px;
+      width: calc(100% - 45px);
+      height: 96px;
+    }
+
     .left {
       p {
         max-width: 450px;
@@ -116,7 +122,6 @@
     .right {
       display: grid;
       grid-template-columns: 35% 15% 50%;
-      grid-template-rows: repeat(4, 55px) auto;
       align-items: start;
 
       .first-name {
