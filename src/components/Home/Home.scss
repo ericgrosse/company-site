@@ -10,26 +10,19 @@
 
   $rowHeight: 700px;
 
-  .wrapper {
+  .grid-container {
     max-width: 1350px;
     margin: 0 auto;
     text-align: center;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  .section {
+  section {
     //min-height: 700px;
     background: $white;
     color: $black;
-
-    &:before {
-      content: '';
-      background-color: $white;
-      position: absolute;
-      height: 100%;
-      width: 200vw;
-      left: -100vw;
-      z-index: -1;
-    }
   }
 
   .subsection {
@@ -63,9 +56,6 @@
   }
   
   .our-portfolio {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-
     padding-top: 100px;
 
     p {
@@ -78,9 +68,9 @@
   }
 
   .our-office {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
+    .grid-container {
+      align-items: center;
+    }
 
     padding-top: 60px;
 
@@ -94,8 +84,11 @@
   }
   
   .request-quote {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    padding-top: 60px;
+
+    .grid-container {
+      align-items: center;
+    }
 
     button {
       border-color: $black;
@@ -153,8 +146,12 @@
   }
   
   .footer {
-    display: grid;
-    align-items: center;
+    padding-top: 120px;
+
+    .grid-container {
+      grid-template-columns: 1fr;
+      align-items: center;
+    }
 
     h3 {
       width: 25%;

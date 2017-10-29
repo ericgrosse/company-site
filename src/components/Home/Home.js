@@ -27,8 +27,8 @@ class Home extends Component {
 
     return (
       <div className="Home">
-        <div className="wrapper">
-          <div className="section banner">
+        <section className="banner">
+          <div className="grid-container">
             <video autoPlay loop id="video-background" muted plays-inline>
               <source
                 src={require('videos/2.mp4')}
@@ -36,8 +36,10 @@ class Home extends Component {
               />
             </video>
           </div>
+        </section>
           
-          <div className="section our-portfolio">
+        <section className="our-portfolio">
+          <div className="grid-container">
             <div className="subsection left">
               <h3>Our Portfolio</h3>
               <p>We build responsive websites with fluid layouts and elegant animations</p>
@@ -52,8 +54,10 @@ class Home extends Component {
               <img src={'http://via.placeholder.com/1080x720'}/>
             </div>
           </div>
+        </section>
           
-          <div className="section our-office">
+        <section className="our-office">
+          <div className="grid-container">
             <div className="subsection left">
               <h3>Our Office</h3>
               <p>Montreal</p>
@@ -67,8 +71,10 @@ class Home extends Component {
               <img src={'http://via.placeholder.com/1080x720'}/>
             </div>
           </div>
+        </section>
 
-          <div className="section request-quote">
+        <section className="request-quote">
+          <div className="grid-container">
             <div className="subsection left">
               <h3>Request A Quote</h3>
               <p>Request a quote and we will respond as soon as possible with a customized quote tailored to your specific project needs.</p>
@@ -150,8 +156,10 @@ class Home extends Component {
               <button className="submit-request">Submit Request</button>
             </div>
           </div>
+        </section>
 
-          <div className="section footer">              
+        <section className="footer">
+          <div className="grid-container">              
             <div className="subsection">
               <p className="copyright">© 2017 Singularity Software. All rights reserved.</p>
 
@@ -162,6 +170,7 @@ class Home extends Component {
               </div>
             </div>
           </div>
+        </section>
 
           {/*<div className="section our-services">
             <div className="subsection left">
@@ -221,7 +230,6 @@ class Home extends Component {
             <h3>“ Everyone takes the limits of his own vision for the limits of the world. ”</h3>
             <p>— Arthur Schopenhauer</p>
           </div>*/}
-        </div>
       </div>
     );
   }
