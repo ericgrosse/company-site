@@ -49,35 +49,19 @@ class Home extends Component {
             </div>
           </div>
           
-          <div className="section our-services">
-            <div className="subsection subsection-1">
-              <h3>Our Services</h3>
-              <p>We offer web development services for projects of any scale</p>
-              <i className="fa fa-server" aria-hidden="true"/>
-              
-              <Link to="/services">
-                <button>What we offer</button>
-              </Link>
-            </div>
-
-            <div className="subsection subsection-2">
+          <div className="section our-portfolio">
+            <div className="subsection left">
               <h3>Our Portfolio</h3>
               <p>We build responsive websites with fluid layouts and elegant animations</p>
-              <i className="fa fa-folder-open" aria-hidden="true"/>
-              
-              <Link to="/portfolio">
-                <button>What we've done</button>
-              </Link>
+              <Link to="/portfolio">What we've done</Link>
+              <img src={require('images/naska/2.jpg')}/>
             </div>
 
-            <div className="subsection subsection-3">
+            <div className="subsection right">
               <h3>About Us</h3>
               <p>We are a small team of dedicated web developers and concept artists</p>
-              <i className="fa fa-user-circle" aria-hidden="true"/>
-              
-              <Link to="/about">
-                <button>What we're about</button>
-              </Link>
+              <Link to="/about">What we're about</Link>
+              <img src={require('images/naska/3.jpg')}/>
             </div>
           </div>
 

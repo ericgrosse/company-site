@@ -1,5 +1,6 @@
 $black: #333;
 $black-alt: #111;
+$blue: #0070C9;
 
 * {
   min-height: 0;
@@ -32,6 +33,24 @@ p {
   line-height: 1.38;
   letter-spacing: 0.011em;
   color: $black;
+}
+
+a {
+  font-size: 21px;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 1.38;
+  letter-spacing: 0.011em;
+  color: $blue;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:active {
+    text-decoration: none;
+  }
 }
 
 button {

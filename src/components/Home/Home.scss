@@ -6,6 +6,7 @@
   $orange: #E46350;
   $black: #333;
   $white: #FAFAFA; // white color used by apple, very subtle as rgb(250, 250, 250)
+  $blue: #0070C9;
 
   $rowHeight: 700px;
 
@@ -62,6 +63,11 @@
   }
   
   .our-services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .our-portfolio {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
