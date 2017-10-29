@@ -104,6 +104,7 @@ textarea {
   font-family: Helvetica;
   font-size: 17px;
   resize: none;
+  transition: height 0.4s;
 
   &:focus {
     outline: none;

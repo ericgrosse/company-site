@@ -15,11 +15,20 @@ class Home extends Component {
       ext: '',
       emailAddress: '',
       projectDetails: '',
+      projectDetailsHeight: 96,
     }
   }
 
   handleChange = (e) => {
     this.setState({[e.target.name]: e.target.value})
+  }
+
+  increaseHeight = () => {
+    this.setState({projectDetailsHeight: 192})
+  }
+
+  decreaseHeight = () => {
+    this.setState({projectDetailsHeight: 96})
   }
 
   render() {
@@ -146,10 +155,13 @@ class Home extends Component {
 
               <textarea
                 className="project-details"
+                style={{height: state.projectDetailsHeight}}
                 placeholder={'Project details'}
                 name={'projectDetails'}
                 value={state.projectDetails}
                 onChange={this.handleChange}
+                onClick={this.increaseHeight}
+                onBlur={this.decreaseHeight}
               />
 
               <button className="submit-request">Submit Request</button>
