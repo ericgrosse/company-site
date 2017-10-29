@@ -87,12 +87,15 @@
     p {
       margin-bottom: 0.75em;
     }
+
+    .right {
+      order: -1;
+    }
   }
   
   .request-quote {
     display: grid;
-    grid-template-columns: 18% 20% 44% 18%;
-    grid-column-gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
 
     button {
       border-color: $black;
@@ -109,23 +112,7 @@
       margin: 6px;
     }
 
-    .column {
-      display: grid;
-    }
-
-    .subsection {
-      text-align: left;
-    }
-
-    .subsection-1 {
-      grid-row: 2;
-      grid-column: 2;
-    }
-
-    .subsection-2 {
-      grid-row: 2;
-      grid-column: 3;
-
+    .right {
       display: grid;
       grid-template-columns: 35% 15% 50%;
       grid-template-rows: repeat(4, 55px) auto;

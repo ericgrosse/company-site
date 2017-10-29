@@ -69,12 +69,12 @@ class Home extends Component {
           </div>
 
           <div className="section request-quote">
-            <div className="subsection subsection-1">
+            <div className="subsection left">
               <h3>Request A Quote</h3>
               <p>Request a quote and we will respond as soon as possible with a customized quote tailored to your specific project needs.</p>
             </div>
 
-            <div className="subsection subsection-2">
+            <div className="subsection right">
               <input
                 className="first-name"
                 type="text"
@@ -151,13 +151,8 @@ class Home extends Component {
             </div>
           </div>
 
-          <div className="section footer">
-            <div className="subsection subsection-1">
-              <h3>“ Everyone takes the limits of his own vision for the limits of the world. ”</h3>
-              <p>— Arthur Schopenhauer</p>
-            </div>
-              
-            <div className="subsection subsection-2">
+          <div className="section footer">              
+            <div className="subsection">
               <p className="copyright">© 2017 Singularity Software. All rights reserved.</p>
 
               <div className="social-media-icons">
@@ -220,6 +215,11 @@ class Home extends Component {
             <div className="subsection subsection-10">
               <img src={require('images/photoshop-logo-512x512.png')}/>
             </div>
+          </div>*/}
+
+          {/*<div className="subsection subsection-1">
+            <h3>“ Everyone takes the limits of his own vision for the limits of the world. ”</h3>
+            <p>— Arthur Schopenhauer</p>
           </div>*/}
         </div>
       </div>
