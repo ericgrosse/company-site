@@ -25,8 +25,9 @@
 
   .grid {
     display: grid;
-    grid-template-columns: repeat(3, 125px);
+    grid-template-columns: repeat(3, 140px);
     justify-content: end;
+    text-align: center;
     //background: #272727;
     color: $white;
     font-family: helvetica;
