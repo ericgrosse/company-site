@@ -17,7 +17,7 @@
   }
 
   .section {
-    min-height: 700px;
+    //min-height: 700px;
     background: $white;
     color: $black;
 
@@ -62,49 +62,30 @@
     }
   }
   
-  .our-services {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-
-    p {
-      margin-bottom: 0.75em;
-    }
-  }
-
   .our-portfolio {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
+    padding-top: 100px;
+
     p {
       margin-bottom: 0.75em;
     }
-  }
 
-  .our-expertise {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    align-items: center;
-
-    .subsection {
-      margin-bottom: 2em;
-    }
-
-    .subsection-1 {
-      grid-column: 1 / span 5; // might not be the best way to handle the header
-      margin-bottom: 0;
-    }
-
-    .subsection-5 {
-      grid-column: 4 / span 2;
+    img {
+      padding-top: 60px;
     }
   }
-  
+
   .our-office {
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
 
-    h3 {
-      margin-top: 16px; // matches margin-bottom of p, necessary for vertically centering the content
+    padding-top: 60px;
+
+    p {
+      margin-bottom: 0.75em;
     }
   }
   
@@ -218,4 +199,23 @@
       margin-top: 60px;
     }
   }
+
+  /*.our-expertise {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+
+    .subsection {
+      margin-bottom: 2em;
+    }
+
+    .subsection-1 {
+      grid-column: 1 / span 5; // might not be the best way to handle the header
+      margin-bottom: 0;
+    }
+
+    .subsection-5 {
+      grid-column: 4 / span 2;
+    }
+  }*/
 }
