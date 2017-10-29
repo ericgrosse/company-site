@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import 'components/Home/Home.scss'
+import $ from 'jquery'
 
 class Home extends Component {
   constructor(props) {
@@ -17,6 +18,53 @@ class Home extends Component {
       projectDetails: '',
       projectDetailsHeight: 96,
     }
+  }
+
+  componentDidMount() {
+    /* Animate image when scrolling to it */
+
+    let $animatedIcons = $('.grid-image'); // Add classnames here
+    let $window = $(window);
+    let lastScrollTop = 0;
+
+    function checkIfInView() {
+      let windowHeight = $window.height();
+      let windowTopPosition = $window.scrollTop();
+      let windowBottomPosition = windowTopPosition + windowHeight;
+
+      $.each($animatedIcons, function() {
+        let $element = $(this);
+        let elementHeight = $element.outerHeight();
+        let elementTopPosition = $element.offset().top;
+        let elementBottomPosition = elementTopPosition + elementHeight;
+
+        // check to see if this current container is within viewport
+        if( /*(elementBottomPosition >= windowTopPosition) &&*/ (elementTopPosition <= windowBottomPosition) ) {
+          $element.addClass('animated');
+
+          if ($element.hasClass('effect-left')) {
+            $element.addClass('fadeInLeft');
+          }
+          else {
+            $element.addClass('fadeInRight');
+          }
+        }
+        else {
+          $element.removeClass('animated');
+
+          if ($element.hasClass('effect-left')) {
+            $element.removeClass('fadeInLeft');
+          }
+          else {
+            $element.removeClass('fadeInRight');
+          }
+        }
+      });
+
+      lastScrollTop = windowTopPosition;
+    }
+
+    $window.on('scroll', checkIfInView);
   }
 
   handleChange = (e) => {
@@ -55,14 +103,14 @@ class Home extends Component {
               <h3>Our Portfolio</h3>
               <p>We build responsive websites with fluid layouts and elegant animations</p>
               <Link to="/portfolio">What we've done</Link>
-              <img src={'http://via.placeholder.com/1080x720'}/>
+              <img className="grid-image" src={'http://via.placeholder.com/1080x720'}/>
             </div>
 
             <div className="subsection right">
               <h3>About Us</h3>
               <p>We are a small team of dedicated web developers and concept artists</p>
               <Link to="/about">What we're about</Link>
-              <img src={'http://via.placeholder.com/1080x720'}/>
+              <img className="grid-image" src={'http://via.placeholder.com/1080x720'}/>
             </div>
           </div>
         </section>
@@ -79,7 +127,7 @@ class Home extends Component {
             </div>
 
             <div className="subsection right">
-              <img src={'http://via.placeholder.com/1080x720'}/>
+              <img className="grid-image effect-left" src={'http://via.placeholder.com/1080x720'}/>
             </div>
           </div>
         </section>
