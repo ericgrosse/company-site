@@ -31,12 +31,18 @@
 
   /* Specific grid items */
 
-  .banner {
-    height: 900px;
+  section.banner {
     background: transparent;
 
-    &:before {
-      content: none;
+    .grid-container {
+      grid-template-columns: 1fr;
+      grid-template-rows: 900px;
+      justify-items: center;
+      //align-items: center;
+    }
+
+    img {
+      margin-top: 60px;
     }
 
     video {
@@ -55,7 +61,7 @@
     }
   }
   
-  .our-portfolio {
+  section.our-portfolio {
     padding-top: 100px;
 
     p {
@@ -67,7 +73,7 @@
     }
   }
 
-  .our-office {
+  section.our-office {
     .grid-container {
       align-items: center;
     }
@@ -83,7 +89,7 @@
     }
   }
   
-  .request-quote {
+  section.request-quote {
     padding-top: 60px;
 
     .grid-container {
@@ -157,7 +163,7 @@
     }
   }
   
-  .footer {
+  section.footer {
     padding-top: 120px;
 
     .grid-container {

@@ -44,6 +44,8 @@ class Home extends Component {
                 type="video/mp4"
               />
             </video>
+
+            <img src={'http://via.placeholder.com/480x180'}/>
           </div>
         </section>
           
