@@ -5,7 +5,10 @@
   $black: #333;
   $mask: rgba(0,0,0,0.2);
 
-  background: $mask;
+  position: absolute;
+  width: 100%;
+
+  //background: $mask;
 
   .grid-container {
     max-width: 1350px;

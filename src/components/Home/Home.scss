@@ -7,6 +7,7 @@
   $black: #333;
   $white: #FAFAFA; // white color used by apple, very subtle as rgb(250, 250, 250)
   $blue: #0070C9;
+  $mask: rgba(0,0,0,0.2);
 
   $rowHeight: 700px;
 
@@ -32,11 +33,11 @@
   /* Specific grid items */
 
   section.banner {
-    background: transparent;
+    background: $mask;
 
     .grid-container {
       grid-template-columns: 1fr;
-      grid-template-rows: 900px;
+      grid-template-rows: 950px;
       justify-items: center;
       //align-items: center;
     }
