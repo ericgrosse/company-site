@@ -40,6 +40,14 @@
   section.portfolio {
     .subsection {
       display: none;
+
+      &:hover {
+        display: block;
+      }
+    }
+
+    a:hover + .subsection {
+      display: block;
     }
   }
 
@@ -51,12 +59,11 @@
     font-weight: bold;
     letter-spacing: 0.7px;
     color: white; //inherit;
-    padding: 10px 0;
+    padding: 25px 0;
     transition: color 0.3s;
 
     position: relative;
     display: inline-block;
-    margin: 15px 0;
     width: 100%;
 
     &:hover {
