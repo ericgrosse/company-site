@@ -38,8 +38,14 @@
   }
 
   section.portfolio {
+    position: relative;
+
     .subsection {
       display: none;
+      position: absolute;
+      top: 72px;
+      left: 0;
+      background: rgba(64, 64, 64, 0.8);
 
       &:hover {
         display: block;
