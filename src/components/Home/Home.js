@@ -130,14 +130,14 @@ class Home extends Component {
               <h3>Our Portfolio</h3>
               <p>We build responsive websites with fluid layouts and elegant animations</p>
               <Link to="/portfolio">What we've done</Link>
-              <img className="grid-image" src={'http://via.placeholder.com/1080x720'}/>
+              <img className="grid-image effect-left" src={'http://via.placeholder.com/1080x720'}/>
             </div>
 
             <div className="subsection right">
               <h3>About Us</h3>
               <p>We are a small team of dedicated web developers and concept artists</p>
               <Link to="/about">What we're about</Link>
-              <img className="grid-image" src={'http://via.placeholder.com/1080x720'}/>
+              <img className="grid-image effect-left" src={'http://via.placeholder.com/1080x720'}/>
             </div>
           </div>
         </section>
@@ -148,17 +148,17 @@ class Home extends Component {
 
             <div className="subsection left">
               <h4>Logo Creation</h4>
-              <img className="grid-image effect-left" src={'http://via.placeholder.com/1080x720'}/>
+              <img className="grid-image effect-right" src={'http://via.placeholder.com/1080x720'}/>
             </div>
 
             <div className="subsection middle">
               <h4>Websites</h4>
-              <img className="grid-image effect-left" src={'http://via.placeholder.com/1080x720'}/>
+              <img className="grid-image effect-right" src={'http://via.placeholder.com/1080x720'}/>
             </div>
 
             <div className="subsection right">
               <h4>Web Apps</h4>
-              <img className="grid-image effect-left" src={'http://via.placeholder.com/1080x720'}/>
+              <img className="grid-image effect-right" src={'http://via.placeholder.com/1080x720'}/>
             </div>
           </div>
         </section>
