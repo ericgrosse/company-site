@@ -109,6 +109,8 @@ class Home extends Component {
     const {state, props} = this;
     //console.log(state)
 
+    let desktop = props.width >= 768
+
     return (
       <div className="Home">
         <section className="banner">
@@ -142,7 +144,7 @@ class Home extends Component {
               <h3>About Us</h3>
               <p>We are a small team of dedicated web developers and concept artists</p>
               <Link to="/about">What we're about</Link>
-              <img className="grid-image effect-left" src={'http://via.placeholder.com/1080x720'}/>
+              <img className={'grid-image' +  (desktop ? ' effect-left' : ' effect-right')} src={'http://via.placeholder.com/1080x720'}/>
             </div>
           </div>
         </section>
@@ -153,7 +155,7 @@ class Home extends Component {
 
             <div className="subsection left">
               <h4>Logo Creation</h4>
-              <img className="grid-image effect-right" src={'http://via.placeholder.com/1080x720'}/>
+              <img className={'grid-image' + (desktop ? ' effect-right' : ' effect-left')} src={'http://via.placeholder.com/1080x720'}/>
             </div>
 
             <div className="subsection middle">
@@ -163,7 +165,7 @@ class Home extends Component {
 
             <div className="subsection right">
               <h4>Web Apps</h4>
-              <img className="grid-image effect-right" src={'http://via.placeholder.com/1080x720'}/>
+              <img className={'grid-image' + (desktop ? ' effect-right' : ' effect-left')} src={'http://via.placeholder.com/1080x720'}/>
             </div>
           </div>
         </section>
@@ -180,7 +182,7 @@ class Home extends Component {
             </div>
 
             <div className="subsection right">
-              <img className="grid-image effect-left" src={'http://via.placeholder.com/1080x720'}/>
+              <img className={'grid-image' + (desktop ? ' effect-left' : ' effect-right')} src={'http://via.placeholder.com/1080x720'}/>
             </div>
           </div>
         </section>
