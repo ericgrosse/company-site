@@ -41,9 +41,9 @@
     transition: background 200ms;
     height: 20px;
 
-    &:hover {
+    &:focus {
       background: $green;
-      cursor: pointer;
+      text-decoration: none;
     }
   }
 }
