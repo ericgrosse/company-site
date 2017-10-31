@@ -9,12 +9,15 @@ class Home extends Component {
 
     this.state = {
       firstName: '',
+      firstNameError: false,
       lastName: '',
       organization: '',
       city: '',
       telephone: '',
+      telephoneError: false,
       ext: '',
       emailAddress: '',
+      emailAddressError: false,
       projectDetails: '',
       projectDetailsHeight: 96,
     }
@@ -79,8 +82,32 @@ class Home extends Component {
     this.setState({projectDetailsHeight: 96})
   }
 
+  submit = () => {
+    this.validate()
+  }
+
+  validate = () => {
+    const {state} = this;
+
+    let stateObj = {}
+
+    stateObj.firstNameError = !state.firstName
+    stateObj.telephoneError = !state.telephone
+    stateObj.emailAddressError = !state.emailAddress
+
+    for (let key in stateObj) {
+      if (key) {
+        this.setState(stateObj)
+        return false
+      }
+    }
+
+    return true
+  }
+
   render() {
     const {state} = this;
+    //console.log(state)
 
     return (
       <div className="Home">
@@ -141,9 +168,9 @@ class Home extends Component {
 
             <div className="subsection right">
               <input
-                className="first-name"
+                className={'first-name' + (state.firstNameError ? ' error' : '')}
                 type="text"
-                placeholder={'First Name'}
+                placeholder={'First Name*'}
                 name={'firstName'}
                 value={state.firstName}
                 onChange={this.handleChange}
@@ -177,9 +204,9 @@ class Home extends Component {
               />
 
               <input
-                className="telephone"
+                className={'telephone' + (state.telephoneError ? ' error' : '')}
                 type="text"
-                placeholder={'Telephone'}
+                placeholder={'Telephone*'}
                 name={'telephone'}
                 value={state.telephone}
                 onChange={this.handleChange}
@@ -195,9 +222,9 @@ class Home extends Component {
               />
 
               <input
-                className="email-address"
+                className={'email-address' + (state.emailAddressError ? ' error' : '')}
                 type="text"
-                placeholder={'Email Address'}
+                placeholder={'Email Address*'}
                 name={'emailAddress'}
                 value={state.emailAddress}
                 onChange={this.handleChange}
@@ -214,7 +241,7 @@ class Home extends Component {
                 onBlur={this.decreaseHeight}
               />
 
-              <button className="submit-request">Submit Request</button>
+              <button className="submit-request" onClick={this.submit}>Submit Request</button>
             </div>
           </div>
         </section>
