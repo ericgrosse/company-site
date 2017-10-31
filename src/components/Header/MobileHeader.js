@@ -23,10 +23,14 @@ class MobileHeader extends Component {
         <i className="fa fa-bars" onClick={this.toggleHeader}/>
 
         <div className={'header-content' + (state.showHeader ? ' expanded': '')}>
-          <Link className="header home-button" to='/'>Home</Link>
-          <Link className="header portfolio-button" to='/portfolio'>Portfolio</Link>
-          <Link className="header about-button" to='/about'>About</Link>
-          <Link className="header quote-request-button" to='/contact'>Contact</Link>
+          <Link className="home" to='/'>Home</Link>
+          <Link className="portfolio" to='/portfolio'>Portfolio</Link>
+          <Link className="naska" to='/portfolio'>Naska</Link>
+          <Link className="troy" to='/portfolio'>Troy</Link>
+          <Link className="wilbert" to='/portfolio'>Wilbert</Link>
+          <Link className="caroline" to='/portfolio'>Caroline</Link>
+          <Link className="about" to='/about'>About</Link>
+          <Link className="contact" to='/contact'>Contact</Link>
         </div>
       </div>
     )

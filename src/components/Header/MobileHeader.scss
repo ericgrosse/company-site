@@ -8,7 +8,7 @@
   font-family: helvetica;
   font-weight: bold;
   letter-spacing: 0.7px;
-  min-height: 40px;
+  min-height: 34px;
   align-items: center; // vertically centers the header text
   overflow-y: hidden;
 
@@ -20,14 +20,13 @@
     transition: height 450ms ease-in-out;
 
     &.expanded {
-      height: 284px;
+      height: 544px;
     }
   }
 
   .fa {
     font-size: 30px;
-    padding-top: 4px;
-    padding-right: 24px;
+    padding: 12px 24px;
   }
 
   .home-button {
@@ -41,9 +40,42 @@
     transition: background 200ms;
     height: 20px;
 
+    &:hover {
+      text-decoration: none;
+    }
+
     &:focus {
-      background: $green;
+      //background: $green;
       text-decoration: none;
     }
   }
+
+  // Specific header items
+
+  .home {
+    background: #7DB6B0;
+  }
+
+  .portfolio {
+    background: #E46350;
+  }
+
+  .about {
+    background: #F5B07C;
+  }
+
+  .contact {
+    background: #B05C5C;
+  }
+
 }
+
+// Nice colors
+/*
+#F5B07C
+#E46350
+#7DB6B0
+#B05C5C
+#74BF80
+#9F6490
+*/
