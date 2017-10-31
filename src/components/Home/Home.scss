@@ -263,4 +263,42 @@
       grid-column: 4 / span 2;
     }
   }*/
+
+  @media (max-width: 767px) {
+    section.our-portfolio {
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    section.our-services {
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+
+      .subsection.title {
+        grid-column: 1;
+      }
+    }
+
+    section.our-office {
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    section.request-quote {
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+
+      .right {
+        grid-template-columns: 1fr;
+
+        .project-details {
+          grid-column: 1;
+        }
+      }
+    }
+  }
 }
