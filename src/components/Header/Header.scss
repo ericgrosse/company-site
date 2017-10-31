@@ -118,4 +118,11 @@
   .portfolio > a:before, .portfolio > a:after {
     content: none;
   }
+
+  // Custom breakpoint 
+  @media (max-width: 1000px) {
+    .grid-container {
+      grid-template-columns: 55% repeat(3, 1fr);
+    }
+  }
 }

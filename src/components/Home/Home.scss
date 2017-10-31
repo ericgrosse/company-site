@@ -44,7 +44,7 @@
     }
 
     img {
-      margin-top: 60px;
+      margin-top: 120px;
     }
 
     video {
@@ -263,6 +263,14 @@
       grid-column: 4 / span 2;
     }
   }*/
+
+  @media (max-width: 991px) {
+    section.our-services {
+      .subsection h4 {
+        font-size: 32px; // avoids text wrapping issue for "Logo Creation"
+      }
+    }
+  }
 
   @media (max-width: 767px) {
     section.banner {
