@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Header from 'components/Header/Header'
 import MobileHeader from 'components/Header/MobileHeader'
 import Routes from 'components/Routes'
-import windowSize from 'react-window-size'
+import windowDimensions from 'react-window-dimensions';
 import 'styles/app.scss'
 import 'animate.css/animate.min.css'
 
@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div>
         {
-          props.windowWidth >= 768 ?
+          props.width >= 768 ?
           <Header /> :
           <MobileHeader />
         }
@@ -23,4 +23,4 @@ class App extends Component {
   }
 }
 
-export default windowSize(App)
+export default windowDimensions()(App)

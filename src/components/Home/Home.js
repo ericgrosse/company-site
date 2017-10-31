@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import 'components/Home/Home.scss'
 import $ from 'jquery'
-import windowSize from 'react-window-size'
+import windowDimensions from 'react-window-dimensions';
 
 class Home extends Component {
   constructor(props) {
@@ -115,7 +115,7 @@ class Home extends Component {
           <div className="grid-container">
             
             {
-              props.windowWidth >= 768 &&
+              props.width >= 768 &&
 
               <video autoPlay loop id="video-background" muted plays-inline>
                 <source
@@ -340,4 +340,4 @@ class Home extends Component {
   }
 }
 
-export default windowSize(Home)
+export default windowDimensions()(Home)
