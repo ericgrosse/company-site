@@ -11,12 +11,21 @@ class MobileHeader extends Component {
     }
   }
 
+  // Hide the header on a route change
+  componentWillReceiveProps(nextProps) {
+    const {props} = this
+
+    if (props !== nextProps) {
+      this.setState({showHeader: false})
+    }
+  }
+
   toggleHeader = () => {
     this.setState({showHeader: !this.state.showHeader})
   }
 
   render () {
-    const {state, props} = this;
+    const {state, props} = this
 
     return (
       <div className="MobileHeader">
