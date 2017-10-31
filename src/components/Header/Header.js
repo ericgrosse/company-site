@@ -17,6 +17,8 @@ const Header = () => (
         <div className="subsection">
           <Link to='/portfolio'>Naska</Link>
           <Link to='/portfolio'>Troy</Link>
+          <Link to='/portfolio'>Wilbert</Link>
+          <Link to='/portfolio'>Caroline</Link>
         </div>
       </section>
 

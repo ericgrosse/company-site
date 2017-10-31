@@ -44,19 +44,25 @@
     position: relative;
 
     .subsection {
-      display: none;
+      //display: none;
+      opacity: 0;
+      transition: opacity 0.2s;
       position: absolute;
-      top: 72px;
+      top: 56px;
       left: 0;
-      background: rgba(64, 64, 64, 0.8);
+      //background: rgba(64, 64, 64, 0.8);
+
+      a {
+        padding: 14px 0;
+      }
 
       &:hover {
-        display: block;
+        opacity: 1;
       }
     }
 
     a:hover + .subsection {
-      display: block;
+      opacity: 1;
     }
   }
 
