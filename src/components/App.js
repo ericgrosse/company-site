@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div>
         {
-          true ?
+          props.windowWidth >= 768 ?
           <Header /> :
           <MobileHeader />
         }

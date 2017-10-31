@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import 'components/Home/Home.scss'
 import $ from 'jquery'
+import windowSize from 'react-window-size'
 
 class Home extends Component {
   constructor(props) {
@@ -105,19 +106,24 @@ class Home extends Component {
   }
 
   render() {
-    const {state} = this;
+    const {state, props} = this;
     //console.log(state)
 
     return (
       <div className="Home">
         <section className="banner">
           <div className="grid-container">
-            <video autoPlay loop id="video-background" muted plays-inline>
-              <source
-                src={require('videos/2.mp4')}
-                type="video/mp4"
-              />
-            </video>
+            
+            {
+              props.windowWidth >= 768 &&
+
+              <video autoPlay loop id="video-background" muted plays-inline>
+                <source
+                  src={require('videos/2.mp4')}
+                  type="video/mp4"
+                />
+              </video>
+            }
 
             <img src={'http://via.placeholder.com/480x180'}/>
           </div>
@@ -334,4 +340,4 @@ class Home extends Component {
   }
 }
 
-export default Home
+export default windowSize(Home)

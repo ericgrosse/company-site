@@ -265,6 +265,21 @@
   }*/
 
   @media (max-width: 767px) {
+    section.banner {
+      background: transparent;
+      background-image: url('~images/background-1.png');
+      background-size: cover;
+
+      .grid-container {
+        grid-template-rows: 560px;
+        padding: 0 1em; // not a fan of placing this in the grid-container since it isn't standardized to other grid-containers
+      }
+
+      img {
+        //margin-top: 60px;
+      }
+    }
+
     section.our-portfolio {
       .grid-container {
         grid-template-columns: 1fr;

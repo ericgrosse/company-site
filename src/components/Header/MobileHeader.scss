@@ -10,6 +10,7 @@
   letter-spacing: 0.7px;
   min-height: 40px;
   align-items: center; // vertically centers the header text
+  overflow-y: hidden;
 
   .header-content {
     display: grid;
