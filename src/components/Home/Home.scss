@@ -188,6 +188,15 @@
       padding-bottom: 45px;
     }
 
+    a {
+      color: lighten($black, 10%);
+      transition: color 0.3s;
+
+      &:hover {
+        color: $black;
+      }
+    }
+
     .fa {
       font-size: 60px;
       padding: 0 6px;
