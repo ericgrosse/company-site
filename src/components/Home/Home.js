@@ -141,7 +141,28 @@ class Home extends Component {
             </div>
           </div>
         </section>
-          
+
+        <section className="our-services">
+          <div className="grid-container">
+            <h3 className="subsection title">Our Services</h3>
+
+            <div className="subsection left">
+              <h4>Logo Creation</h4>
+              <img className="grid-image effect-left" src={'http://via.placeholder.com/1080x720'}/>
+            </div>
+
+            <div className="subsection middle">
+              <h4>Websites</h4>
+              <img className="grid-image effect-left" src={'http://via.placeholder.com/1080x720'}/>
+            </div>
+
+            <div className="subsection right">
+              <h4>Web Apps</h4>
+              <img className="grid-image effect-left" src={'http://via.placeholder.com/1080x720'}/>
+            </div>
+          </div>
+        </section>
+  
         <section className="our-office">
           <div className="grid-container">
             <div className="subsection left">
