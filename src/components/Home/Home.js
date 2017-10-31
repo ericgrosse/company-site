@@ -15,7 +15,6 @@ class Home extends Component {
       city: '',
       telephone: '',
       telephoneError: false,
-      ext: '',
       emailAddress: '',
       emailAddressError: false,
       projectDetails: '',
@@ -230,15 +229,6 @@ class Home extends Component {
                 placeholder={'Telephone*'}
                 name={'telephone'}
                 value={state.telephone}
-                onChange={this.handleChange}
-              />
-            
-              <input
-                className="extension"
-                type="text"
-                placeholder={'Ext.'}
-                name={'ext'}
-                value={state.ext}
                 onChange={this.handleChange}
               />
 

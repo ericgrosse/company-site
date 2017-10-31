@@ -133,7 +133,7 @@
       margin: 6px;
       margin-bottom: 0;
       padding: 10px 10px;
-      width: 115%; // need to exceed grid column dimensions slightly
+      width: calc(100% - 10px);
     }
 
     input {
@@ -188,39 +188,11 @@
 
     .right {
       display: grid;
-      grid-template-columns: 35% 15% 50%;
+      grid-template-columns: repeat(2, 1fr);
       align-items: start;
 
-      .first-name {
-        grid-column: 1 / span 2;
-      }
-
-      .last-name {
-        grid-column: 3;
-      }
-
-      .organization {
-        grid-column: 1 / span 2;
-      }
-
-      .city {
-        grid-column: 3;
-      }
-
-      .telephone {
-        grid-column: 1;
-      }
-
-      .extension {
-        grid-column: 2;
-      }
-
-      .email-address {
-        grid-column: 3;
-      }
-
       .project-details {
-        grid-column: 1 / span 3;
+        grid-column: 1 / span 2;
       }
     }
   }
