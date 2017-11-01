@@ -134,7 +134,7 @@ class Home extends Component {
         <section className="our-portfolio">
           <div className="grid-container">
             <div className="subsection left">
-              <h3>Our Portfolio</h3>
+              <h3>Portfolio</h3>
               <p>We build responsive websites with fluid layouts and elegant animations</p>
               <Link to="/portfolio">What we've done</Link>
               <img className="grid-image effect-left" src={'http://via.placeholder.com/1080x720'}/>
