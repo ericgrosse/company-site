@@ -1,0 +1,56 @@
+  .Footer {
+    $black: #333;
+    $white: #FAFAFA;
+
+    padding-top: 120px;
+    background: $white;
+
+    .grid-container {
+      max-width: 1350px;
+      margin: 0 auto;
+      text-align: center;
+
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: center;
+    }
+
+    h3 {
+      width: 25%;
+      margin: 0 auto;
+      margin-top: 50px;
+      font-size: 30px;
+    }
+
+    .copyright {
+      margin-top: 100px;
+      margin-bottom: 0;
+    }
+
+    .social-media-icons {
+      padding-bottom: 45px;
+    }
+
+    a {
+      color: lighten($black, 10%);
+      transition: color 0.3s;
+
+      &:hover {
+        color: $black;
+      }
+    }
+
+    .fa {
+      font-size: 60px;
+      padding: 0 6px;
+      padding-top: 16px;
+    }
+
+    .subsection {
+      padding: 0;
+    }
+
+    .subsection-1 {
+      margin-top: 60px;
+    }
+  }

@@ -265,78 +265,64 @@ class Home extends Component {
           </div>
         </section>
 
-        <section className="footer">
-          <div className="grid-container">              
-            <div className="subsection">
-              <p className="copyright">© 2017 Web Singularity. All rights reserved.</p>
-
-              <div className="social-media-icons">
-                <a href={'https://github.com/ericgrosse'}><i className="fa fa-github" aria-hidden="true"/></a>
-                <a href={'https://www.linkedin.com/in/eric-grosse-485a0894/'}><i className="fa fa-linkedin-square" aria-hidden="true"/></a>
-                <a href={'https://twitter.com/eric_grosse'}><i className="fa fa-twitter-square" aria-hidden="true"/></a>
-              </div>
-            </div>
+        {/*<div className="section our-services">
+          <div className="subsection left">
+            <h3>Our Services</h3>
+            <p>We offer web development services for projects of any scale</p>
+            <Link to="/services">What we offer</Link>
           </div>
-        </section>
 
-          {/*<div className="section our-services">
-            <div className="subsection left">
-              <h3>Our Services</h3>
-              <p>We offer web development services for projects of any scale</p>
-              <Link to="/services">What we offer</Link>
-            </div>
+          <div className="subsection right">
+            <img src={require('images/naska/1.jpg')}/>
+          </div>
+        </div>*/}
 
-            <div className="subsection right">
-              <img src={require('images/naska/1.jpg')}/>
-            </div>
-          </div>*/}
+        {/*<div className="section our-expertise">
+          <div className="subsection subsection-1">
+            <h3>Our Expertise</h3>
+          </div>
+          
+          <div className="subsection subsection-2">
+            <img src={require('images/react-logo-1000x1000.png')}/>
+          </div>
+          
+          <div className="subsection subsection-3">
+            <img src={require('images/webpack-logo-800x925.png')}/>
+          </div>
+          
+          <div className="subsection subsection-4">
+            <img src={require('images/node-js-logo-1000x612.png')}/>
+          </div>
 
-          {/*<div className="section our-expertise">
-            <div className="subsection subsection-1">
-              <h3>Our Expertise</h3>
-            </div>
-            
-            <div className="subsection subsection-2">
-              <img src={require('images/react-logo-1000x1000.png')}/>
-            </div>
-            
-            <div className="subsection subsection-3">
-              <img src={require('images/webpack-logo-800x925.png')}/>
-            </div>
-            
-            <div className="subsection subsection-4">
-              <img src={require('images/node-js-logo-1000x612.png')}/>
-            </div>
+          <div className="subsection subsection-5">
+            <img src={require('images/html5+css3.png')}/>
+          </div>
 
-            <div className="subsection subsection-5">
-              <img src={require('images/html5+css3.png')}/>
-            </div>
+          <div className="subsection subsection-6">
+            <img src={require('images/mysql-logo-1024x530.png')}/>
+          </div>
 
-            <div className="subsection subsection-6">
-              <img src={require('images/mysql-logo-1024x530.png')}/>
-            </div>
+          <div className="subsection subsection-7">
+            <img src={require('images/mongodb-logo-375x375.png')}/>
+          </div>
 
-            <div className="subsection subsection-7">
-              <img src={require('images/mongodb-logo-375x375.png')}/>
-            </div>
+          <div className="subsection subsection-8">
+            <img src={require('images/github-icon-512x512-2.png')}/>
+          </div>
 
-            <div className="subsection subsection-8">
-              <img src={require('images/github-icon-512x512-2.png')}/>
-            </div>
+          <div className="subsection subsection-9">
+            <img src={require('images/circle-ci-logo-400x400.png')}/>
+          </div>
 
-            <div className="subsection subsection-9">
-              <img src={require('images/circle-ci-logo-400x400.png')}/>
-            </div>
+          <div className="subsection subsection-10">
+            <img src={require('images/photoshop-logo-512x512.png')}/>
+          </div>
+        </div>*/}
 
-            <div className="subsection subsection-10">
-              <img src={require('images/photoshop-logo-512x512.png')}/>
-            </div>
-          </div>*/}
-
-          {/*<div className="subsection subsection-1">
-            <h3>“ Everyone takes the limits of his own vision for the limits of the world. ”</h3>
-            <p>— Arthur Schopenhauer</p>
-          </div>*/}
+        {/*<div className="subsection subsection-1">
+          <h3>“ Everyone takes the limits of his own vision for the limits of the world. ”</h3>
+          <p>— Arthur Schopenhauer</p>
+        </div>*/}
       </div>
     );
   }

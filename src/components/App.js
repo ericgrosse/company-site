@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Header from 'components/Header/Header'
+import Footer from 'components/Footer'
 import MobileHeader from 'components/Header/MobileHeader'
 import Routes from 'components/Routes'
 import windowDimensions from 'react-window-dimensions';
@@ -14,10 +15,12 @@ class App extends Component {
       <div>
         {
           props.width >= 768 ?
-          <Header /> :
-          <MobileHeader />
+          <Header/> :
+          <MobileHeader/>
         }
-        <Routes />
+
+        <Routes/>
+        <Footer/>
       </div>
     )
   }
