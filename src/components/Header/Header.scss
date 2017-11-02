@@ -1,9 +1,5 @@
 .Header {
-  $green: #3F9E94;
-  $orange: #E46350;
-  $white: #FAFAFA;
-  $black: #333;
-  $mask: rgba(0,0,0,0.2);
+  @import '~styles/variables';
 
   position: absolute;
   width: 100%;

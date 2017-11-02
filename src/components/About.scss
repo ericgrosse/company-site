@@ -1,6 +1,5 @@
 .About {
-  $mask: rgba(0,0,0,0.2);
-  $white: #FAFAFA;
+  @import '~styles/variables';
 
   .grid-container {
     max-width: 1350px;

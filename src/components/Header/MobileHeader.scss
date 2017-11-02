@@ -1,6 +1,5 @@
 .MobileHeader {
-  $green: #3F9E94;
-  $orange: #E46350;
+  @import '~styles/variables';
 
   text-align: right;
   background: #272727;

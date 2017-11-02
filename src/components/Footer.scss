@@ -1,6 +1,5 @@
   .Footer {
-    $black: #333;
-    $white: #FAFAFA;
+    @import '~styles/variables';
 
     padding-top: 120px;
     background: $white;
