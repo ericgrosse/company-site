@@ -1,3 +1,20 @@
 .Banner {
   @import '~styles/variables';
+
+  position: relative;
+  // background-image spefified by an inline style
+  background-size: cover;
+  background-color: rgba(0,0,0,0.4);
+  margin-bottom: 120px;
+
+  h3 {
+    color: $white;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 950px;
+    justify-items: center;
+    align-items: center;
+  }
 }

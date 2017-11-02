@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import $ from 'jquery'
+import Banner from 'components/Common/Banner'
 import 'components/About.scss'
 
 class About extends Component {
@@ -56,13 +57,10 @@ class About extends Component {
 
     return (
       <div className="About">
-        <section className="banner">
-          <div className="img-overlay"/>
-
-          <div className="grid-container">
-            <h3>About Us</h3>
-          </div>
-        </section>
+        <Banner
+          title={'About Us'}
+          imagePath={require('images/background-1.png')}
+        />
 
         <section className="eric">
           <div className="grid-container">
