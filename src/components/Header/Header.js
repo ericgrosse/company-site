@@ -15,10 +15,10 @@ const Header = () => (
         <Link to='/portfolio'>Portfolio</Link>
 
         <div className="subsection">
-          <Link to='/portfolio'>Naska</Link>
-          <Link to='/portfolio'>Troy</Link>
-          <Link to='/portfolio'>Wilbert</Link>
-          <Link to='/portfolio'>Caroline</Link>
+          <Link to='/portfolio/naska'>Naska</Link>
+          <Link to='/portfolio/troy'>Troy</Link>
+          <Link to='/portfolio/will'>Wilbert</Link>
+          <Link to='/portfolio/caroline'>Caroline</Link>
         </div>
       </section>
 

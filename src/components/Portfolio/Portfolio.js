@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import 'components/Portfolio.scss'
+import 'components/Portfolio/Portfolio.scss'
 
 const Portfolio = () => (
   <div className="Portfolio">
