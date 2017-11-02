@@ -5,6 +5,10 @@
     align-items: center;
   }
 
+  .img-overlay {
+    background: rgba(0,0,0,0.15);
+  }
+
   .subsection {
     //border: 2px solid rgb(233,171,88);
     //border-radius: 5px;
@@ -28,8 +32,10 @@
   }
 
   section.banner {
+    position: relative;
     background-image: url('~images/background-1.png');
     background-size: cover;
+    background-color: rgba(0,0,0,0.4);
     margin-bottom: 120px;
 
     h3 {
@@ -38,7 +44,7 @@
 
     .grid-container {
       grid-template-columns: 1fr;
-      grid-template-rows: 700px;
+      grid-template-rows: 950px;
       justify-items: center;
       align-items: center;
     }

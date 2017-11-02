@@ -57,6 +57,8 @@ class About extends Component {
     return (
       <div className="About">
         <section className="banner">
+          <div className="img-overlay"/>
+
           <div className="grid-container">
             <h3>About Us</h3>
           </div>
