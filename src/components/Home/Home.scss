@@ -1,17 +1,6 @@
 .Home {
   @import '~styles/variables';
 
-  $rowHeight: 700px;
-
-  .grid-container {
-    max-width: 1350px;
-    margin: 0 auto;
-    text-align: center;
-
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   section {
     //min-height: 700px;
     background: $white;
@@ -216,6 +205,10 @@
   }
 
   @media (max-width: 767px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+
     section.banner {
       background: transparent;
       background-image: url('~images/background-1.png');
@@ -231,15 +224,9 @@
       }
     }
 
-    section.our-portfolio {
-      .grid-container {
-        grid-template-columns: 1fr;
-      }
-    }
-
     section.our-services {
       .grid-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; // Needed for an override
       }
 
       .subsection.title {
@@ -247,17 +234,7 @@
       }
     }
 
-    section.our-office {
-      .grid-container {
-        grid-template-columns: 1fr;
-      }
-    }
-
     section.request-quote {
-      .grid-container {
-        grid-template-columns: 1fr;
-      }
-
       .right {
         grid-template-columns: 1fr;
 

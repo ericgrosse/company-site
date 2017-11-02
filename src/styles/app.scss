@@ -3,6 +3,8 @@ $black: #333;
 $black-alt: #111;
 $blue: #0070C9;
 
+/* General styles */
+
 * {
   min-height: 0;
   min-width: 0;
@@ -130,6 +132,17 @@ textarea {
     outline: none;
     background: darken($white, 5%);
   }
+}
+
+/* Specific styles */
+
+.grid-container {
+  max-width: 1350px;
+  margin: 0 auto;
+  text-align: center;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 /* input placeholder text color */
