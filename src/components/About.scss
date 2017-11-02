@@ -1,57 +1,72 @@
 .About {
-  margin-top: 30px;
+  $mask: rgba(0,0,0,0.2);
+  $white: #FAFAFA;
 
-  .wrapper {
-    // Outer
-    max-width: 940px;
+  .grid-container {
+    max-width: 1350px;
     margin: 0 auto;
-    
-    // Inner
-    display: grid;
-    //grid-auto-rows: minmax(100px, auto);
-
     text-align: center;
-  }
 
-  .section {
     display: grid;
-
-    &:nth-child(2n) {
-      grid-template-columns: 2fr 1fr;
-
-      .content {
-        order: -1;
-      }
-    }
-
-    &:nth-child(2n+1) {
-      grid-template-columns: 1fr 2fr;
-
-      .content {
-        order: 1;
-      }
-    }
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
   }
 
-  .section, .subsection {
-    // Styling
-    border: 2px solid rgb(233,171,88);
-    border-radius: 5px;
-    //background-color: rgba(233,171,88,.5);
+  .subsection {
+    //border: 2px solid rgb(233,171,88);
+    //border-radius: 5px;
     padding: 1em;
+
+    h3 {
+      margin-bottom: 1em;
+    }
+
+    p {
+      margin-top: 0;
+    }
+
+    &.header {
+      grid-column: 1 / span 2;
+    }
+
+    &.content {
+      //padding: 1em 5em;
+    }
   }
 
-  .section {
-    position: relative;
+  section.banner {
+    background-image: url('~images/background-1.png');
+    background-size: cover;
+    margin-bottom: 120px;
 
-    &:before {
-      content: '';
-      //background-color: red;
-      position: absolute;
-      height: 100%;
-      width: 200vw;
-      left: -100vw;
-      z-index: -1;
+    h3 {
+      color: $white;
+    }
+
+    .grid-container {
+      grid-template-columns: 1fr;
+      grid-template-rows: 600px;
+      justify-items: center;
+      align-items: center;
+    }
+  }
+
+  section.eric, section.diizon {
+    padding-bottom: 60px;
+  }
+
+  section.diizon {
+    .subsection.photo {
+      order: 1;
+    }
+  }
+
+  @media (max-width: 767px) {
+    section.banner {
+      .grid-container {
+        grid-template-rows: 560px;
+        padding: 0 1em; // not a fan of placing this in the grid-container since it isn't standardized to other grid-containers
+      }
     }
   }
 }
