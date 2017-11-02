@@ -127,7 +127,7 @@ class Home extends Component {
               </video>
             }
 
-            <img src={'http://via.placeholder.com/480x180'}/>
+            <img src={require('images/logo-2.png')}/>
           </div>
         </section>
           

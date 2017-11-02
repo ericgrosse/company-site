@@ -7,7 +7,7 @@ const Header = () => (
     <div className="grid-container">
       <section className="logo">
         <Link to='/'>
-          <img className="animated lightSpeedIn" src={'http://via.placeholder.com/100x50'}/>
+          <img className="animated lightSpeedIn" src={require('images/logo-icon-1.png')}/>
         </Link>
       </section>
 
