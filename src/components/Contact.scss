@@ -1,3 +1,84 @@
 .Contact {
   @import '~styles/variables';
+
+  .img-overlay {
+    background: rgba(0,0,0,0.1);
+  }
+
+  section.request-quote {
+    padding-top: 80px;
+
+    .grid-container {
+      align-items: center;
+    }
+
+    button {
+      border-color: $black;
+      color: $black;
+      margin: 6px;
+      margin-bottom: 0;
+      padding: 10px 10px;
+      width: calc(100% - 10px);
+    }
+
+    input {
+      border: 2px solid $black;
+      width: calc(100% - 45px);
+      margin: 6px;
+    }
+
+    input.error {
+      border: 2px solid $red;
+      color: $red;
+
+      &:focus {
+        background: rgb(255,165,165); // #ffcccc; (lighter alternative)
+      }
+
+      &::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+          color: $red;
+      }
+
+      &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+         color: $red;
+         opacity: 1;
+      }
+
+      &::-moz-placeholder { /* Mozilla Firefox 19+ */
+         color: $red;
+         opacity: 1;
+      }
+
+      &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+         color: $red;
+      }
+
+      &::-ms-input-placeholder { /* Microsoft Edge */
+         color: $red;
+      }
+    }
+
+    textarea {
+      margin: 6px;
+      width: calc(100% - 45px);
+    }
+
+    .left {
+      p {
+        max-width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    .right {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: start;
+
+      .project-details {
+        grid-column: 1 / span 2;
+      }
+    }
+  }
 }
