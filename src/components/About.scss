@@ -31,40 +31,12 @@
     }
   }
 
-  section.banner {
-    position: relative;
-    background-image: url('~images/background-1.png');
-    background-size: cover;
-    background-color: rgba(0,0,0,0.4);
-    margin-bottom: 120px;
-
-    h3 {
-      color: $white;
-    }
-
-    .grid-container {
-      grid-template-columns: 1fr;
-      grid-template-rows: 950px;
-      justify-items: center;
-      align-items: center;
-    }
-  }
-
-  section.eric, section.diizon {
+  section {
     padding-bottom: 60px;
-  }
 
-  section.diizon {
-    .subsection.photo {
-      order: 1;
-    }
-  }
-
-  @media (max-width: 767px) {
-    section.banner {
-      .grid-container {
-        grid-template-rows: 560px;
-        padding: 0 1em; // not a fan of placing this in the grid-container since it isn't standardized to other grid-containers
+    &:nth-child(2n+1) {
+      .subsection.photo {
+        order: 1;
       }
     }
   }
