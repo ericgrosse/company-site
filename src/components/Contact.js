@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import Banner from 'components/Common/Banner'
+import onScroll from 'helpers/onScroll'
 import 'components/Contact.scss'
 
 class Contact extends Component {
@@ -20,6 +21,10 @@ class Contact extends Component {
       projectDetails: '',
       projectDetailsHeight: 96,
     }
+  }
+
+  componentDidMount() {
+    onScroll()
   }
 
   render() {
