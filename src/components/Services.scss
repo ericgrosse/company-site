@@ -1,0 +1,43 @@
+.Services {
+  @import '~styles/variables';
+
+  .grid-container {
+    align-items: center;
+  }
+
+  .img-overlay {
+    background: rgba(0,0,0,0.15);
+  }
+
+  .subsection {
+    //border: 2px solid rgb(233,171,88);
+    //border-radius: 5px;
+    padding: 1em;
+
+    h3 {
+      margin-bottom: 1em;
+    }
+
+    p {
+      margin-top: 0;
+    }
+
+    &.header {
+      grid-column: 1 / span 2;
+    }
+
+    &.content {
+      //padding: 1em 5em;
+    }
+  }
+
+  section {
+    padding-bottom: 60px;
+
+    &:nth-child(2n+1) {
+      .subsection.photo {
+        order: 1;
+      }
+    }
+  }
+}

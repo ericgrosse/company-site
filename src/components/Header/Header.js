@@ -11,6 +11,10 @@ const Header = () => (
         </Link>
       </section>
 
+      <section className="services">
+        <Link to='/services'>Services</Link>
+      </section>
+
       <section className="portfolio">
         <Link to='/portfolio'>Portfolio</Link>
 
