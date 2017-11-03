@@ -62,10 +62,10 @@ class About extends Component {
           imagePath={require('images/background-1.png')}
         />
 
-        <section className="eric">
+        <section>
           <div className="grid-container">
             <div className="subsection header">
-              <h3>Eric Grosse</h3>
+              <h3>TODO</h3>
             </div>
 
             <div className="subsection photo">
@@ -78,10 +78,10 @@ class About extends Component {
           </div>
         </section>
 
-        <section className="diizon">
+        <section>
           <div className="grid-container">
             <div className="subsection header">
-              <h3>Diizon Belfon</h3>
+              <h3>TODO</h3>
             </div>
 
             <div className="subsection photo">
