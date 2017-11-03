@@ -110,9 +110,9 @@
     transform: translateX(0px);
   }
 
-  .portfolio > a:before, .portfolio > a:after {
+  /*.portfolio > a:before, .portfolio > a:after {
     content: none;
-  }
+  }*/
 
   // Custom breakpoint 
   @media (max-width: 1000px) {

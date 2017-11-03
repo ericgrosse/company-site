@@ -14,12 +14,12 @@ const Header = () => (
       <section className="portfolio">
         <Link to='/portfolio'>Portfolio</Link>
 
-        <div className="subsection">
+        {/*<div className="subsection">
           <Link to='/portfolio/naska'>Naska</Link>
           <Link to='/portfolio/troy'>Troy</Link>
           <Link to='/portfolio/will'>Wilbert</Link>
           <Link to='/portfolio/caroline'>Caroline</Link>
-        </div>
+        </div>*/}
       </section>
 
       <section className="about">
