@@ -23,16 +23,18 @@
     text-align: right;
 
     img {
+      
+    }
+
+    a {
+      margin: 0;
+      padding: 0;
+
       margin-top: 8px;
       width: 320px;
       position: relative;
       left: 145px;
-    }
 
-    // Have to strip away all the link styling used for the other header elements
-    a {
-      margin: 0;
-      padding: 0;
 
       &::before, &::after {
         content: none;
