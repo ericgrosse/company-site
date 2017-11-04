@@ -4,6 +4,7 @@ import 'components/Home/Home.scss'
 import $ from 'jquery'
 import windowDimensions from 'react-window-dimensions';
 import onScroll from 'helpers/onScroll'
+import Header from 'components/Header/Header'
 
 class Home extends Component {
   constructor(props) {
@@ -66,11 +67,14 @@ class Home extends Component {
   render() {
     const {state, props} = this;
     //console.log(state)
+    //console.log(props)
 
     let desktop = props.width >= 768
 
     return (
       <div className="Home">
+        <Header route={props.location.pathname}/>
+
         <section className="banner">
           <div className="grid-container">
             

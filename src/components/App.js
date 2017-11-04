@@ -13,11 +13,11 @@ class App extends Component {
 
     return (
       <div>
-        {
+        {/*
           props.width >= 768 ?
           <Header/> :
           <MobileHeader/>
-        }
+        */}
 
         <Routes/>
         <Footer/>

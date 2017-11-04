@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import $ from 'jquery'
 import Banner from 'components/Common/Banner'
 import onScroll from 'helpers/onScroll'
+import Header from 'components/Header/Header'
 import 'components/Services.scss'
 
 class Services extends Component {
@@ -15,6 +16,8 @@ class Services extends Component {
 
     return (
       <div className="Services">
+        <Header route={props.location.pathname}/>
+        
         <Banner
           title={'Services'}
           imagePath={require('images/background-4.png')}
