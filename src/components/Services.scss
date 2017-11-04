@@ -20,23 +20,6 @@
     }
   }
 
-  section.our-expertise {
-    .grid-container {
-      grid-template-columns: repeat(3, 1fr);
-      //grid-template-rows: auto repeat(3, 438px);
-      grid-column-gap: 30px;
-    }
-
-    .subsection.header {
-      grid-column: 1 / span 3;
-      background: rgba(0,0,0,0.15);
-    }
-
-    .subsection.image-container {
-      position: relative;
-    }
-  }
-
   .subsection {
     //border: 2px solid rgb(233,171,88);
     //border-radius: 5px;
@@ -56,6 +39,36 @@
 
     &.content {
       //padding: 1em 5em;
+    }
+  }
+
+  /* Specific section styles */
+
+  section.our-expertise {
+    .grid-container {
+      grid-template-columns: repeat(3, 1fr);
+      grid-column-gap: 30px;
+      align-items: stretch;
+    }
+
+    .img-overlay {
+      background: rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      transition: all 300ms ease-in-out;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    .subsection.header {
+      grid-column: 1 / span 3;
+    }
+
+    .subsection.image-container {
+      position: relative;
+      display: grid;
+      align-items: center;
     }
   }
 }
