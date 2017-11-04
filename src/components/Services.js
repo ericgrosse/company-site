@@ -78,38 +78,47 @@ class Services extends Component {
             </div>
              
             <div className="subsection image-container">
+              <div className="img-overlay"/>
               <img src={require('images/react-logo-1000x1000.png')}/>
             </div>
             
             <div className="subsection image-container">
+              <div className="img-overlay"/>
               <img src={require('images/webpack-logo-800x925.png')}/>
             </div>
             
             <div className="subsection image-container">
+              <div className="img-overlay"/>
               <img src={require('images/node-js-logo-1000x612.png')}/>
             </div>
 
             <div className="subsection image-container">
+              <div className="img-overlay"/>
               <img src={require('images/html5+css3.png')}/>
             </div>
 
             <div className="subsection image-container">
+              <div className="img-overlay"/>
               <img src={require('images/mysql-logo-1024x530.png')}/>
             </div>
 
             <div className="subsection image-container">
+              <div className="img-overlay"/>
               <img src={require('images/mongodb-logo-375x375.png')}/>
             </div>
 
             <div className="subsection image-container">
+              <div className="img-overlay"/>
               <img src={require('images/github-icon-512x512-2.png')}/>
             </div>
 
             <div className="subsection image-container">
+              <div className="img-overlay"/>
               <img src={require('images/circle-ci-logo-400x400.png')}/>
             </div>
 
             <div className="subsection image-container">
+              <div className="img-overlay"/>
               <img src={require('images/photoshop-logo-512x512.png')}/>
             </div>
           </div>
