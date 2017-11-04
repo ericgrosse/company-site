@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import $ from 'jquery'
 import Banner from 'components/Common/Banner'
 import onScroll from 'helpers/onScroll'
-import Header from 'components/Header/Header'
+import Header from 'components/Header'
 import 'components/About.scss'
 
 class About extends Component {

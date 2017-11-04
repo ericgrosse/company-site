@@ -106,10 +106,7 @@
     transform: translateX(-20px);
   }
 
-  a:hover::before,
-  a:hover::after,
-  a:focus::before,
-  a:focus::after {
+  a:hover::before, a:hover::after, a:focus::before, a:focus::after, /*a.active::before, a.active::after*/ {
     opacity: 1;
     transform: translateX(0px);
   }
@@ -153,7 +150,8 @@
     transition: height 450ms ease-in-out;
 
     &.expanded {
-      height: 544px;
+      height: 340px;
+      padding-bottom: 12px;
     }
   }
 
@@ -186,19 +184,23 @@
   // Specific header items
 
   .home {
-    background: #7DB6B0;
+    //background: #7DB6B0;
   }
 
+  .services {
+
+  }
+  
   .portfolio {
-    background: #E46350;
+    //background: #E46350;
   }
 
   .about {
-    background: #F5B07C;
+    //background: #F5B07C;
   }
 
   .contact {
-    background: #B05C5C;
+    //background: #B05C5C;
   }
 
 }

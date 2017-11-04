@@ -11,20 +11,24 @@ import Troy from 'components/Portfolio/Troy'
 import Will from 'components/Portfolio/Will'
 import Caroline from 'components/Portfolio/Caroline'*/
 
-const Routes = () => (
-  <main>
-    <Switch>
-      <Route exact path='/' component={Home}/>
-      <Route path='/about' component={About}/>
-      <Route path='/services' component={Services}/>
-      {/*<Route path='/portfolio/naska' component={Naska}/>
-      <Route path='/portfolio/troy' component={Troy}/>
-      <Route path='/portfolio/will' component={Will}/>
-      <Route path='/portfolio/caroline' component={Caroline}/>*/}
-      <Route path='/portfolio' component={Portfolio}/>
-      <Route path='/contact' component={Contact}/>
-    </Switch>
-  </main>
-);
+const Routes = (props) => {
+  //console.log(props)
+  
+  return (
+    <main>
+      <Switch>
+        <Route exact path='/' component={Home}/>
+        <Route path='/about' component={About}/>
+        <Route path='/services' component={Services}/>
+        {/*<Route path='/portfolio/naska' component={Naska}/>
+        <Route path='/portfolio/troy' component={Troy}/>
+        <Route path='/portfolio/will' component={Will}/>
+        <Route path='/portfolio/caroline' component={Caroline}/>*/}
+        <Route path='/portfolio' component={Portfolio}/>
+        <Route path='/contact' component={Contact}/>
+      </Switch>
+    </main>
+  )
+}
 
 export default Routes

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import windowDimensions from 'react-window-dimensions'
 //import 'components/Header/Header.scss'
 
@@ -34,14 +34,11 @@ class Header extends React.Component {
           <i className="fa fa-bars" onClick={this.toggleHeader}/>
 
           <div className={'header-content' + (state.showHeader ? ' expanded': '')}>
-            <Link className="home" to='/'>Home</Link>
-            <Link className="portfolio" to='/portfolio'>Portfolio</Link>
-            <Link className="naska" to='/portfolio'>Naska</Link>
-            <Link className="troy" to='/portfolio'>Troy</Link>
-            <Link className="wilbert" to='/portfolio'>Wilbert</Link>
-            <Link className="caroline" to='/portfolio'>Caroline</Link>
-            <Link className="about" to='/about'>About</Link>
-            <Link className="contact" to='/contact'>Contact</Link>
+            <NavLink className="home" activeClassName="active" to='/'>Home</NavLink>
+            <NavLink className="services" activeClassName="active" to='/services'>Services</NavLink>
+            <NavLink className="portfolio" activeClassName="active" to='/portfolio'>Portfolio</NavLink>
+            <NavLink className="about" activeClassName="active" to='/about'>About</NavLink>
+            <NavLink className="contact" activeClassName="active" to='/contact'>Contact</NavLink>
           </div>
         </div>
       )
@@ -54,33 +51,33 @@ class Header extends React.Component {
             {
               props.route !== '/' &&
 
-              <Link to='/'>
+              <NavLink to='/' activeClassName="active">
                 <img className="animated lightSpeedIn" src={require('images/logo-1.png')}/>
-              </Link>
+              </NavLink>
             }
           </section>
 
           <section className="services">
-            <Link to='/services'>Services</Link>
+            <NavLink to='/services' activeClassName="active">Services</NavLink>
           </section>
 
           <section className="portfolio">
-            <Link to='/portfolio'>Portfolio</Link>
+            <NavLink to='/portfolio' activeClassName="active">Portfolio</NavLink>
 
             {/*<div className="subsection">
-              <Link to='/portfolio/naska'>Naska</Link>
-              <Link to='/portfolio/troy'>Troy</Link>
-              <Link to='/portfolio/will'>Wilbert</Link>
-              <Link to='/portfolio/caroline'>Caroline</Link>
+              <NavLink to='/portfolio/naska'>Naska</NavLink>
+              <NavLink to='/portfolio/troy'>Troy</NavLink>
+              <NavLink to='/portfolio/will'>Wilbert</NavLink>
+              <NavLink to='/portfolio/caroline'>Caroline</NavLink>
             </div>*/}
           </section>
 
           <section className="about">
-            <Link to='/about'>About</Link>
+            <NavLink to='/about' activeClassName="active">About</NavLink>
           </section>
 
           <section className="contact">
-            <Link to='/contact'>Contact</Link>
+            <NavLink to='/contact' activeClassName="active">Contact</NavLink>
           </section>
         </div>
       </div>

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import Banner from 'components/Common/Banner'
 import onScroll from 'helpers/onScroll'
-import Header from 'components/Header/Header'
+import Header from 'components/Header'
 import 'components/Contact.scss'
 
 class Contact extends Component {
