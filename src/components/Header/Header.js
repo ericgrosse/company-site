@@ -11,10 +11,10 @@ class Header extends React.Component {
         <div className="grid-container">
           <section className="logo">
             {
-              props.route === '/' &&
+              props.route !== '/' &&
 
               <Link to='/'>
-                <img className="animated lightSpeedIn" src={require('images/logo-icon-1.png')}/>
+                <img className="animated lightSpeedIn" src={require('images/logo-1.png')}/>
               </Link>
             }
           </section>

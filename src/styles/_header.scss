@@ -9,8 +9,9 @@
 
   .grid-container {
     padding: 0 1em;
-    grid-template-columns: 60% repeat(4, 1fr);
+    grid-template-columns: 55% repeat(4, 1fr);
     justify-content: end;
+    align-items: start;
   }
 
   section {
@@ -19,11 +20,13 @@
   }
 
   section.logo {
-    text-align: left;
+    text-align: right;
 
     img {
       margin-top: 8px;
-      width: 100px;
+      width: 320px;
+      position: relative;
+      left: 145px;
     }
 
     // Have to strip away all the link styling used for the other header elements
