@@ -27,6 +27,15 @@ class Home extends Component {
 
   componentDidMount() {
     onScroll()
+
+    // Annoying hack I had to resort to since the header cannot detect the current route
+    let $img = $('section.logo img')
+    $img.hide()
+  }
+
+  componentWillUnmount() {
+    let $img = $('section.logo img')
+    $img.show()
   }
 
   handleChange = (e) => {
