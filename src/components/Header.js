@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import windowDimensions from 'react-window-dimensions'
-//import 'components/Header/Header.scss'
+import 'components/Header.scss'
 
 class Header extends React.Component {
   constructor(props) {

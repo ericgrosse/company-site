@@ -12,6 +12,7 @@ class App extends Component {
 
     return (
       <div>
+        <Header/>
         <Routes/>
         <Footer/>
       </div>

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import Banner from 'components/Common/Banner'
 import onScroll from 'helpers/onScroll'
-import Header from 'components/Header'
+//import Header from 'components/Header'
 import 'components/Portfolio/Portfolio.scss'
 
 class Portfolio extends Component {
@@ -15,7 +15,7 @@ class Portfolio extends Component {
     
     return (
       <div className="Portfolio">
-        <Header route={props.location.pathname}/>
+        {/*<Header route={props.location.pathname}/>*/}
         
         <Banner
           imagePath={require('images/background-2.png')}
